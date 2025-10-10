@@ -1,0 +1,138 @@
+{
+    "name": "El Nino vs La Nina Winter Rainfall",
+    "description": "In Hawaiʻi, El Niño and La Niña have significant impacts on seasonal rainfall, temperature, and wind. El Niño weakens the trade winds, warms the ocean, and increases drought risk, while La Niña generally brings the opposite. Recognizing these patterns helps communities prepare in advance—for example, farmers and ranchers can plan for drought by storing water, reserving supplies, or adjusting their herds.",
+    "mapDesc": [
+        "January 1998 shows the peak of a strong El Niño, with rainfall much lower than the climatological January average.",
+        "In contrast, January 1999 saw much wetter conditions than normal due to a strong La Niña.",
+        "Another El Niño year, 2010, also shows drier-than-average conditions compared to the climatological January.",
+        "Similarly, the El Niño of 2016 produced below-average rainfall for January.",
+        "In January 2008, during La Niña, there were much wetter conditions than the climatology average.",
+        "Likewise, La Niña conditions in January 2011 also brought higher-than-average rainfall.",
+        "By January 2019, El Niño conditions again predicted a drier winter, which aligned with observations.",
+        "However, February 2019 was unusually wet, going against the typical El Niño expectation.",
+        "During the sequence of La Niñas from 2020–2022, January 2020 rainfall was higher than normal, as expected.",
+        "January 2021 also followed this La Niña pattern, with wetter-than-average conditions.",
+        "But January 2022 broke the trend, showing unusually low rainfall despite La Niña conditions."
+        ],
+    "mapTransitionTimes":[
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+    ],
+    "leftMap": {
+        "dataType": [
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain"
+        ],
+        "timeType": [
+            "hist",
+            "hist",
+            "hist",
+            "hist",
+            "hist",
+            "hist",
+            "hist",
+            "hist",
+            "hist",
+            "hist",
+            "hist"
+        ],
+        "mapPaths": [
+            "1998_01",
+            "1999_01",
+            "2010_01",
+            "2016_01",
+            "2008_01",
+            "2011_01",
+            "2019_01",
+            "2019_02",
+            "2020_01",
+            "2021_01",
+            "2022_01"
+        ],
+        "mapLabels": [
+            "Strong El Nino - January 1998",
+            "Strong La Nina - January 1999",
+            "Standard El Nino - January 2010",
+            "Standard El Nino - January 2016",
+            "Standard La Nina - January 2008",
+            "Standard La Nina - January 2011",
+            "Standard El Nino - January 2019",
+            "Unusually Wet El Nino - February 2019",
+            "Standard El Nino - January 2020",
+            "Standard El Nino - January 2021",
+            "Unusually Dry La Nina - January 2022"
+        ]
+    },
+    "rightMap": {
+        "dataType": [
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain",
+            "Rain"
+        ],
+        "timeType": [
+            "contemp",
+            "contemp",
+            "contemp",
+            "contemp",
+            "contemp",
+            "contemp",
+            "contemp",
+            "contemp",
+            "contemp",
+            "contemp",
+            "contemp"
+        ],
+        "mapPaths": [
+            "1998_01",
+            "1999_01",
+            "2010_01",
+            "2016_01",
+            "2008_01",
+            "2011_01",
+            "2019_01",
+            "2019_02",
+            "2020_01",
+            "2021_01",
+            "2022_01"
+        ],
+        "mapLabels": [
+            "Average Rainfall over 30 years  - January",
+            "Average Rainfall over 30 years  - January",
+            "Average Rainfall over 30 years  - January",
+            "Average Rainfall over 30 years  - January",
+            "Average Rainfall over 30 years  - January",
+            "Average Rainfall over 30 years  - January",
+            "Average Rainfall over 30 years  - January",
+            "Average Rainfall over 30 years  - February",
+            "Average Rainfall over 30 years  - January",
+            "Average Rainfall over 30 years  - January",
+            "Average Rainfall over 30 years  - January"
+        ]
+    }
+}

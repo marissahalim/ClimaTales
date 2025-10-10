@@ -1,0 +1,3950 @@
+{
+  "Hawaii Island": {
+    "reference-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 263013,
+          "generation_kwh": 303582377
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 170804,
+          "generation_kwh": 311212183
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 182050,
+          "generation_kwh": 15249985
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 46000,
+          "generation_kwh": 226512125
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46877861
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 39980,
+          "generation_kwh": 165306899
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 233500,
+          "generation_kwh": 560311874
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 277743,
+          "generation_kwh": 309987318
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 193011,
+          "generation_kwh": 352137383
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 124050,
+          "generation_kwh": 17143307
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 46000,
+          "generation_kwh": 213307036
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46870661
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 48707,
+          "generation_kwh": 204163109
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 233626,
+          "generation_kwh": 556822312
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 290207,
+          "generation_kwh": 328198651
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 211427,
+          "generation_kwh": 385821753
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 124050,
+          "generation_kwh": 16506145
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 49176,
+          "generation_kwh": 229332421
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46950700
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 54645,
+          "generation_kwh": 227669223
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 238564,
+          "generation_kwh": 572209868
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 300896,
+          "generation_kwh": 335778104
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 124050,
+          "generation_kwh": 8555805
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 226227,
+          "generation_kwh": 412563045
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 61632,
+          "generation_kwh": 297231436
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46871261
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 54645,
+          "generation_kwh": 233446764
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 243905,
+          "generation_kwh": 577797141
+        }
+      }
+    ],
+    "s1-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 263013,
+          "generation_kwh": 303156251
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 170804,
+          "generation_kwh": 310970216
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 182050,
+          "generation_kwh": 15288496
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 46000,
+          "generation_kwh": 225963602
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46877861
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 40263,
+          "generation_kwh": 165918877
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 233500,
+          "generation_kwh": 561173310
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 277743,
+          "generation_kwh": 303615723
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 193011,
+          "generation_kwh": 352148553
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 124050,
+          "generation_kwh": 18313051
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 53456,
+          "generation_kwh": 270442099
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46870661
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 54914,
+          "generation_kwh": 229846429
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 237963,
+          "generation_kwh": 566791366
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 290207,
+          "generation_kwh": 304787899
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 211427,
+          "generation_kwh": 386696149
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 124050,
+          "generation_kwh": 18147321
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 66240,
+          "generation_kwh": 371138548
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46950700
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 62573,
+          "generation_kwh": 253066435
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 251756,
+          "generation_kwh": 603155279
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 301102,
+          "generation_kwh": 308354942
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 124050,
+          "generation_kwh": 9880729
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 226227,
+          "generation_kwh": 412565953
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 88202,
+          "generation_kwh": 525902844
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46871261
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 62573,
+          "generation_kwh": 261046870
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 257311,
+          "generation_kwh": 603990218
+        }
+      }
+    ],
+    "s2-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 263013,
+          "generation_kwh": 305005226
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 170804,
+          "generation_kwh": 311054931
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 182050,
+          "generation_kwh": 6532384
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 46000,
+          "generation_kwh": 214924678
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46877861
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 15207,
+          "generation_kwh": 58879823
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 233500,
+          "generation_kwh": 549490534
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 277743,
+          "generation_kwh": 322450076
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 193011,
+          "generation_kwh": 350583576
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 124050,
+          "generation_kwh": 9164600
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 46000,
+          "generation_kwh": 203594282
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46870661
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 33740,
+          "generation_kwh": 136393408
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 233500,
+          "generation_kwh": 559264883
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 290207,
+          "generation_kwh": 312869597
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 211427,
+          "generation_kwh": 386555997
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 124050,
+          "generation_kwh": 16805571
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 46229,
+          "generation_kwh": 199600015
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46950700
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 58617,
+          "generation_kwh": 240871774
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 242793,
+          "generation_kwh": 579918625
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 300889,
+          "generation_kwh": 324617726
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 124050,
+          "generation_kwh": 9579237
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 226227,
+          "generation_kwh": 412483881
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 64290,
+          "generation_kwh": 319143127
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46871261
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 58617,
+          "generation_kwh": 249375717
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 249353,
+          "generation_kwh": 587663285
+        }
+      }
+    ],
+    "s3-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 263013,
+          "generation_kwh": 292574067
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 170804,
+          "generation_kwh": 311301439
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 182050,
+          "generation_kwh": 21453368
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 47193,
+          "generation_kwh": 235313090
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46877861
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 51177,
+          "generation_kwh": 213158942
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 236678,
+          "generation_kwh": 566479072
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 277743,
+          "generation_kwh": 301273850
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 193011,
+          "generation_kwh": 352155631
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 124050,
+          "generation_kwh": 18557760
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 56722,
+          "generation_kwh": 294759615
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46870661
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 56220,
+          "generation_kwh": 232570943
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 240929,
+          "generation_kwh": 577752864
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 290207,
+          "generation_kwh": 300566951
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 211427,
+          "generation_kwh": 385760572
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 124050,
+          "generation_kwh": 18614271
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 67637,
+          "generation_kwh": 386909023
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46950700
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 62884,
+          "generation_kwh": 261909997
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 253230,
+          "generation_kwh": 597798933
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 301103,
+          "generation_kwh": 324933138
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 124050,
+          "generation_kwh": 9942860
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 226227,
+          "generation_kwh": 412718155
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "geo": {
+          "renewable": true,
+          "capacity_kw": 88660,
+          "generation_kwh": 533939617
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 17750,
+          "generation_kwh": 46871261
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 62884,
+          "generation_kwh": 257675064
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 258774,
+          "generation_kwh": 609128578
+        }
+      }
+    ]
+  },
+  "Kauai": {
+    "reference-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 151739,
+          "generation_kwh": 152911430
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 32892198
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 58651,
+          "generation_kwh": 78216403
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 21140009
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 42332721
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64405123
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 200054,
+          "generation_kwh": 377448703
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 179459,
+          "generation_kwh": 169391986
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 29151716
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 64364,
+          "generation_kwh": 88355612
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 19166206
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 38169507
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64111242
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 210593,
+          "generation_kwh": 393576682
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 200463,
+          "generation_kwh": 178337751
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 28164795
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 68419,
+          "generation_kwh": 94988784
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 20355587
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 36334597
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64242516
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 221662,
+          "generation_kwh": 413289827
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 216890,
+          "generation_kwh": 183296563
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 111250,
+          "generation_kwh": 17546111
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 24438073
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 71463,
+          "generation_kwh": 98698696
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 41275484
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 63462565
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 254099,
+          "generation_kwh": 448730659
+        }
+      }
+    ],
+    "s1-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 152142,
+          "generation_kwh": 153810990
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 33304188
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 58651,
+          "generation_kwh": 78596937
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 21892608
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 42528499
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64371918
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 201997,
+          "generation_kwh": 380496759
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 180271,
+          "generation_kwh": 172277152
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 33804428
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 64364,
+          "generation_kwh": 88679908
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 27404268
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 41536831
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64721315
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 224781,
+          "generation_kwh": 419415341
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 205263,
+          "generation_kwh": 190264369
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 34187646
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 68419,
+          "generation_kwh": 95640523
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 33539500
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 41958467
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64849227
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 256970,
+          "generation_kwh": 473170312
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 243526,
+          "generation_kwh": 224246129
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 111250,
+          "generation_kwh": 23970472
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 24533738
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 71463,
+          "generation_kwh": 99597931
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 42252014
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 63671288
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 322186,
+          "generation_kwh": 553763349
+        }
+      }
+    ],
+    "s2-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 142758,
+          "generation_kwh": 136061225
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 31206197
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 58651,
+          "generation_kwh": 78916861
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 16269492
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 42717300
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64314281
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 178626,
+          "generation_kwh": 338178958
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 170477,
+          "generation_kwh": 153420724
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 30992633
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 64364,
+          "generation_kwh": 88925228
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 19422121
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 40970235
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64526418
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 197224,
+          "generation_kwh": 370295022
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 191856,
+          "generation_kwh": 165194819
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 33805684
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 68419,
+          "generation_kwh": 95878022
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 26765862
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 42648800
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64860522
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 222103,
+          "generation_kwh": 412959491
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 225874,
+          "generation_kwh": 195611047
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 111250,
+          "generation_kwh": 19793313
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 24631552
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 71463,
+          "generation_kwh": 99732918
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 43063772
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 63835102
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 277429,
+          "generation_kwh": 483214499
+        }
+      }
+    ],
+    "s3-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 156062,
+          "generation_kwh": 162506706
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 34046471
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 58651,
+          "generation_kwh": 78854923
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 25019613
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 41765386
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64412236
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 213344,
+          "generation_kwh": 401658570
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 183781,
+          "generation_kwh": 179931259
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 32692517
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 64364,
+          "generation_kwh": 88758931
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 27602959
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 40086585
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64577780
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 233152,
+          "generation_kwh": 434613220
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 205556,
+          "generation_kwh": 192561923
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 34129198
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 68419,
+          "generation_kwh": 95945429
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 111250,
+          "generation_kwh": 34218201
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 41453004
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 64708463
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 260623,
+          "generation_kwh": 479426350
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 243967,
+          "generation_kwh": 224820645
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 111250,
+          "generation_kwh": 24078338
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 6700,
+          "generation_kwh": 24502575
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 71463,
+          "generation_kwh": 99370325
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "hydro (pumped storage)": {
+          "renewable": false,
+          "capacity_kw": 20000,
+          "generation_kwh": 42402512
+        },
+        "hydro (run-of-river)": {
+          "renewable": true,
+          "capacity_kw": 20320,
+          "generation_kwh": 63509152
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 324279,
+          "generation_kwh": 557010164
+        }
+      }
+    ]
+  },
+  "Lanai": {
+    "reference-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16044,
+          "generation_kwh": 15909968
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1253,
+          "generation_kwh": 2218511
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1327350
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 18131,
+          "generation_kwh": 33507137
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16184,
+          "generation_kwh": 16097561
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1547,
+          "generation_kwh": 2711833
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1277322
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 18264,
+          "generation_kwh": 33561939
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16297,
+          "generation_kwh": 16314058
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1725,
+          "generation_kwh": 3019655
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1264091
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 18594,
+          "generation_kwh": 34101135
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16404,
+          "generation_kwh": 16646759
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 10400,
+          "generation_kwh": 996882
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1903,
+          "generation_kwh": 3335285
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 20083,
+          "generation_kwh": 35026652
+        }
+      }
+    ],
+    "s1-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16044,
+          "generation_kwh": 15826121
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1253,
+          "generation_kwh": 2220239
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1331057
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 18004,
+          "generation_kwh": 33327381
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16184,
+          "generation_kwh": 16653239
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1547,
+          "generation_kwh": 2707560
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1422096
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 19088,
+          "generation_kwh": 35164254
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16297,
+          "generation_kwh": 17633740
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1725,
+          "generation_kwh": 3013138
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1536235
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 20704,
+          "generation_kwh": 37853948
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16404,
+          "generation_kwh": 18518170
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 10400,
+          "generation_kwh": 1367866
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1903,
+          "generation_kwh": 3301139
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 23163,
+          "generation_kwh": 40350450
+        }
+      }
+    ],
+    "s2-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16044,
+          "generation_kwh": 13815295
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1253,
+          "generation_kwh": 2207004
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 848885
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 15812,
+          "generation_kwh": 28588809
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16184,
+          "generation_kwh": 14004569
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1547,
+          "generation_kwh": 2688393
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 982550
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 15812,
+          "generation_kwh": 29029596
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16297,
+          "generation_kwh": 14902750
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1725,
+          "generation_kwh": 3010118
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1001267
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 17266,
+          "generation_kwh": 31331860
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16404,
+          "generation_kwh": 15706239
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 10400,
+          "generation_kwh": 912460
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1903,
+          "generation_kwh": 3301128
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 19063,
+          "generation_kwh": 33454433
+        }
+      }
+    ],
+    "s3-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16044,
+          "generation_kwh": 16233749
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1253,
+          "generation_kwh": 2213905
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1424313
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 18534,
+          "generation_kwh": 34327531
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16184,
+          "generation_kwh": 16838218
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1547,
+          "generation_kwh": 2720609
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1494907
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 19365,
+          "generation_kwh": 35745064
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16297,
+          "generation_kwh": 17717940
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1725,
+          "generation_kwh": 3018259
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 10400,
+          "generation_kwh": 1578239
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 20866,
+          "generation_kwh": 38199053
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 16404,
+          "generation_kwh": 18571328
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 10400,
+          "generation_kwh": 1393958
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1903,
+          "generation_kwh": 3296104
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 23253,
+          "generation_kwh": 40578301
+        }
+      }
+    ]
+  },
+  "Maui": {
+    "reference-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 404548,
+          "generation_kwh": 781970126
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 187254,
+          "generation_kwh": 352023892
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 66396241
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 69343,
+          "generation_kwh": 277990810
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 345243,
+          "generation_kwh": 697633997
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 419991,
+          "generation_kwh": 699287601
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 208733,
+          "generation_kwh": 395577734
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 82707602
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 53329,
+          "generation_kwh": 195285772
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 357770,
+          "generation_kwh": 746034298
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 432261,
+          "generation_kwh": 443401785
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 224663,
+          "generation_kwh": 415579020
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 84402672
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 60479,
+          "generation_kwh": 238803578
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 366093,
+          "generation_kwh": 694555805
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 455164,
+          "generation_kwh": 1129961565
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 172288,
+          "generation_kwh": 42336552
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 235666,
+          "generation_kwh": 445983044
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 85668,
+          "generation_kwh": 312913638
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 430280,
+          "generation_kwh": 800984495
+        }
+      }
+    ],
+    "s1-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 427574,
+          "generation_kwh": 830291434
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 187254,
+          "generation_kwh": 352509738
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 65163935
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 70298,
+          "generation_kwh": 282837274
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 345519,
+          "generation_kwh": 704214012
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 442802,
+          "generation_kwh": 711502160
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 208733,
+          "generation_kwh": 395878212
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 94229163
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 63498,
+          "generation_kwh": 236160646
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 371246,
+          "generation_kwh": 773809366
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 456136,
+          "generation_kwh": 437307224
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 224663,
+          "generation_kwh": 418882499
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 99572559
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 89690,
+          "generation_kwh": 333264977
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 394549,
+          "generation_kwh": 749165149
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 507426,
+          "generation_kwh": 668974107
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 186528,
+          "generation_kwh": 56455224
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 235666,
+          "generation_kwh": 444059694
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 118797,
+          "generation_kwh": 400783413
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 497238,
+          "generation_kwh": 867622298
+        }
+      }
+    ],
+    "s2-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 427574,
+          "generation_kwh": 429766713
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 187254,
+          "generation_kwh": 345102212
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 43660431
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 42000,
+          "generation_kwh": 171767115
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 345243,
+          "generation_kwh": 615924318
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 442659,
+          "generation_kwh": 453401548
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 208733,
+          "generation_kwh": 389723308
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 66796321
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 30428,
+          "generation_kwh": 104844943
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 347593,
+          "generation_kwh": 695395269
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 455972,
+          "generation_kwh": 782222893
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 224663,
+          "generation_kwh": 428662546
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 72131468
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 51967,
+          "generation_kwh": 190086384
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 361828,
+          "generation_kwh": 740352880
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 475019,
+          "generation_kwh": 663062819
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 171210,
+          "generation_kwh": 41263524
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 235666,
+          "generation_kwh": 441961221
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 84674,
+          "generation_kwh": 271607743
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 427196,
+          "generation_kwh": 767901144
+        }
+      }
+    ],
+    "s3-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 427574,
+          "generation_kwh": 771016436
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 187254,
+          "generation_kwh": 352587834
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 72726953
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 78985,
+          "generation_kwh": 316090190
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 349114,
+          "generation_kwh": 706659598
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 442815,
+          "generation_kwh": 764181558
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 208733,
+          "generation_kwh": 396610380
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 100444743
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 67401,
+          "generation_kwh": 257103393
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 373487,
+          "generation_kwh": 783004105
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 456142,
+          "generation_kwh": 818836318
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 224663,
+          "generation_kwh": 427538229
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 154520,
+          "generation_kwh": 102381087
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 91707,
+          "generation_kwh": 343918749
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 395787,
+          "generation_kwh": 802012825
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 507907,
+          "generation_kwh": 668570385
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 186883,
+          "generation_kwh": 56945649
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 235666,
+          "generation_kwh": 443872549
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 119533,
+          "generation_kwh": 405320881
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 498523,
+          "generation_kwh": 868523454
+        }
+      }
+    ]
+  },
+  "Molokai": {
+    "reference-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 10880,
+          "generation_kwh": 17585793
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 3681,
+          "generation_kwh": 7564180
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 2990697
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 15025,
+          "generation_kwh": 28601218
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 11497,
+          "generation_kwh": 18280940
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 4155,
+          "generation_kwh": 8445400
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 2762101
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 15852,
+          "generation_kwh": 29636042
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 12152,
+          "generation_kwh": 19074947
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 4451,
+          "generation_kwh": 9012279
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 2519866
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 17154,
+          "generation_kwh": 31677032
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 14499,
+          "generation_kwh": 20932522
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 1731,
+          "generation_kwh": 906962
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 5526,
+          "generation_kwh": 9813994
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 22283,
+          "generation_kwh": 35285670
+        }
+      }
+    ],
+    "s1-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 10882,
+          "generation_kwh": 17527246
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 3681,
+          "generation_kwh": 7549067
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 2961876
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 14890,
+          "generation_kwh": 28305934
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 12149,
+          "generation_kwh": 19530350
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 4155,
+          "generation_kwh": 8547572
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 3026910
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 17572,
+          "generation_kwh": 32875587
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 13567,
+          "generation_kwh": 21749174
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 4451,
+          "generation_kwh": 9115943
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 2957291
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 21076,
+          "generation_kwh": 38895988
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 17047,
+          "generation_kwh": 25036511
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 2018,
+          "generation_kwh": 1086304
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 7825,
+          "generation_kwh": 11215407
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 26512,
+          "generation_kwh": 44511155
+        }
+      }
+    ],
+    "s2-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 9760,
+          "generation_kwh": 15341776
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 3681,
+          "generation_kwh": 7537888
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 2528231
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 12599,
+          "generation_kwh": 23854690
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 10653,
+          "generation_kwh": 16654650
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 4155,
+          "generation_kwh": 8498594
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 2527682
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 14457,
+          "generation_kwh": 26932503
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 11807,
+          "generation_kwh": 18523078
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 4451,
+          "generation_kwh": 9082425
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 2489362
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 17322,
+          "generation_kwh": 31951475
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 14906,
+          "generation_kwh": 21357671
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 1764,
+          "generation_kwh": 946966
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 5859,
+          "generation_kwh": 10084331
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 23395,
+          "generation_kwh": 37440971
+        }
+      }
+    ],
+    "s3-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 11333,
+          "generation_kwh": 18383686
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 3681,
+          "generation_kwh": 7559946
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 3201811
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 16127,
+          "generation_kwh": 30692052
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 12411,
+          "generation_kwh": 19976422
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 4155,
+          "generation_kwh": 8527875
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 3135542
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 18303,
+          "generation_kwh": 34311966
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 13674,
+          "generation_kwh": 21948943
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 4451,
+          "generation_kwh": 9097772
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 15180,
+          "generation_kwh": 2999963
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 21499,
+          "generation_kwh": 39696855
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 17171,
+          "generation_kwh": 25137245
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 2032,
+          "generation_kwh": 1093723
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 7899,
+          "generation_kwh": 11222412
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 26696,
+          "generation_kwh": 44926550
+        }
+      }
+    ]
+  },
+  "Oahu": {
+    "reference-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1403990,
+          "generation_kwh": 1899316271
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 356840,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 802762,
+          "generation_kwh": 1540235313
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 1045712,
+          "generation_kwh": 1122855136
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 286200,
+          "generation_kwh": 1048186343
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1747785,
+          "generation_kwh": 3458339526
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 395354915
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1422254,
+          "generation_kwh": 3515985192
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 564840,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 880965,
+          "generation_kwh": 1657286922
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 672775,
+          "generation_kwh": 389219891
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 250762,
+          "generation_kwh": 1349569620
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 256200,
+          "generation_kwh": 969673495
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1747785,
+          "generation_kwh": 3390619341
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 231445357
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1476317,
+          "generation_kwh": 1984171766
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 564840,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 936462,
+          "generation_kwh": 1756411451
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 501311,
+          "generation_kwh": 432868432
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 250762,
+          "generation_kwh": 1408206996
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 309694,
+          "generation_kwh": 972830069
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1735488,
+          "generation_kwh": 3222423934
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 251917094
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1562801,
+          "generation_kwh": 2460175554
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 693840,
+          "generation_kwh": 266100013
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 37379,
+          "generation_kwh": 126479135
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1001870,
+          "generation_kwh": 1908456659
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 250762,
+          "generation_kwh": 1352786163
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 454200,
+          "generation_kwh": 1209483346
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1776758,
+          "generation_kwh": 3287565390
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 234378300
+        }
+      }
+    ],
+    "s1-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1461385,
+          "generation_kwh": 1986737348
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 356840,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 802762,
+          "generation_kwh": 1544363156
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 1045712,
+          "generation_kwh": 1145132398
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 286200,
+          "generation_kwh": 1039237598
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1886939,
+          "generation_kwh": 3719425788
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 395950039
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1479650,
+          "generation_kwh": 2059891171
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 564840,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 880965,
+          "generation_kwh": 1657897087
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 672775,
+          "generation_kwh": 511974198
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 347511,
+          "generation_kwh": 1855665884
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 286200,
+          "generation_kwh": 980864583
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1886939,
+          "generation_kwh": 3491602590
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 244039419
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1571771,
+          "generation_kwh": 3299656719
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 564840,
+          "generation_kwh": 3912203
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1238428,
+          "generation_kwh": 2327517225
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 501311,
+          "generation_kwh": 664388513
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 389107,
+          "generation_kwh": 2133595131
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 325200,
+          "generation_kwh": 1011435953
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1880544,
+          "generation_kwh": 3588456866
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 264466265
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1788876,
+          "generation_kwh": 3697412128
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 693840,
+          "generation_kwh": 347794969
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 91080,
+          "generation_kwh": 332129310
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1449990,
+          "generation_kwh": 2685321146
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 389107,
+          "generation_kwh": 2155701624
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 454200,
+          "generation_kwh": 1247267135
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 2157911,
+          "generation_kwh": 3998617430
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 256445527
+        }
+      }
+    ],
+    "s2-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1268601,
+          "generation_kwh": 1600021435
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 356840,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 802762,
+          "generation_kwh": 1542559488
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 1045712,
+          "generation_kwh": 979315748
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 286200,
+          "generation_kwh": 1059779581
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1400190,
+          "generation_kwh": 2786538310
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 391291281
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1286866,
+          "generation_kwh": 2773512203
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 564840,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 880965,
+          "generation_kwh": 1672028006
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 672775,
+          "generation_kwh": 390858774
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 262713,
+          "generation_kwh": 1389029158
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 256200,
+          "generation_kwh": 964531147
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1400190,
+          "generation_kwh": 2735497006
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 244604815
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1381386,
+          "generation_kwh": 1731905881
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 564840,
+          "generation_kwh": 129056
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1012115,
+          "generation_kwh": 1880410066
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 501311,
+          "generation_kwh": 515547143
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 279888,
+          "generation_kwh": 1549054090
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 325200,
+          "generation_kwh": 1022376473
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1486070,
+          "generation_kwh": 2798358134
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 274864218
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1551653,
+          "generation_kwh": 2310611805
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 693840,
+          "generation_kwh": 289112156
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 52792,
+          "generation_kwh": 190896832
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1124735,
+          "generation_kwh": 2113958436
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 279888,
+          "generation_kwh": 1518472885
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 454200,
+          "generation_kwh": 1243976183
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 1734433,
+          "generation_kwh": 3182310349
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 251141880
+        }
+      }
+    ],
+    "s3-managed": [
+      {
+        "year": 2030,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1518560,
+          "generation_kwh": 2131772635
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 356840,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 802762,
+          "generation_kwh": 1550746141
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 1045712,
+          "generation_kwh": 1179853443
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 286200,
+          "generation_kwh": 1030819582
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 2027868,
+          "generation_kwh": 4001070159
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 398112518
+        }
+      },
+      {
+        "year": 2035,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1536825,
+          "generation_kwh": 2173002597
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 564840,
+          "generation_kwh": 0
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 880965,
+          "generation_kwh": 1657712870
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 672775,
+          "generation_kwh": 504166334
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 337457,
+          "generation_kwh": 1809297767
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 286200,
+          "generation_kwh": 978558164
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 2028404,
+          "generation_kwh": 3743199571
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 242483765
+        }
+      },
+      {
+        "year": 2040,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1677046,
+          "generation_kwh": 3698936114
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 564840,
+          "generation_kwh": 6462037
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1283829,
+          "generation_kwh": 2401464851
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 501311,
+          "generation_kwh": 678727890
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 391124,
+          "generation_kwh": 2159653286
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 325200,
+          "generation_kwh": 1014542366
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 2119173,
+          "generation_kwh": 4017074739
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 262759712
+        }
+      },
+      {
+        "year": 2045,
+        "battery": {
+          "renewable": false,
+          "capacity_kw": 1951154,
+          "generation_kwh": 4018466555
+        },
+        "biofuel": {
+          "renewable": true,
+          "capacity_kw": 693840,
+          "generation_kwh": 363036689
+        },
+        "biomass": {
+          "renewable": true,
+          "capacity_kw": 98134,
+          "generation_kwh": 367995454
+        },
+        "dgpv": {
+          "renewable": true,
+          "capacity_kw": 1813024,
+          "generation_kwh": 3335332583
+        },
+        "fossil": {
+          "renewable": false,
+          "capacity_kw": 0,
+          "generation_kwh": 0
+        },
+        "offshore wind": {
+          "renewable": true,
+          "capacity_kw": 391124,
+          "generation_kwh": 2157109051
+        },
+        "onshore wind": {
+          "renewable": true,
+          "capacity_kw": 454200,
+          "generation_kwh": 1243051521
+        },
+        "pv": {
+          "renewable": true,
+          "capacity_kw": 2266661,
+          "generation_kwh": 4185419669
+        },
+        "waste-to-energy": {
+          "renewable": true,
+          "capacity_kw": 68500,
+          "generation_kwh": 261439790
+        }
+      }
+    ]
+  }
+}

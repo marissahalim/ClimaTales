@@ -1,0 +1,6482 @@
+[
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 263013,
+    "generation_kwh": 303582377
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 170804,
+    "generation_kwh": 311212183
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 182050,
+    "generation_kwh": 15249985
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 46000,
+    "generation_kwh": 226512125
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46877861
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 39980,
+    "generation_kwh": 165306899
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 233500,
+    "generation_kwh": 560311874
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 277743,
+    "generation_kwh": 309987318
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 193011,
+    "generation_kwh": 352137383
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 124050,
+    "generation_kwh": 17143307
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 46000,
+    "generation_kwh": 213307036
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46870661
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 48707,
+    "generation_kwh": 204163109
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 233626,
+    "generation_kwh": 556822312
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 290207,
+    "generation_kwh": 328198651
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 211427,
+    "generation_kwh": 385821753
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 124050,
+    "generation_kwh": 16506145
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 49176,
+    "generation_kwh": 229332421
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46950700
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 54645,
+    "generation_kwh": 227669223
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 238564,
+    "generation_kwh": 572209868
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 300896,
+    "generation_kwh": 335778104
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 124050,
+    "generation_kwh": 8555805
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 226227,
+    "generation_kwh": 412563045
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 61632,
+    "generation_kwh": 297231436
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46871261
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 54645,
+    "generation_kwh": 233446764
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 243905,
+    "generation_kwh": 577797141
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 263013,
+    "generation_kwh": 303156251
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 170804,
+    "generation_kwh": 310970216
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 182050,
+    "generation_kwh": 15288496
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 46000,
+    "generation_kwh": 225963602
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46877861
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 40263,
+    "generation_kwh": 165918877
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 233500,
+    "generation_kwh": 561173310
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 277743,
+    "generation_kwh": 303615723
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 193011,
+    "generation_kwh": 352148553
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 124050,
+    "generation_kwh": 18313051
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 53456,
+    "generation_kwh": 270442099
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46870661
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 54914,
+    "generation_kwh": 229846429
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 237963,
+    "generation_kwh": 566791366
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 290207,
+    "generation_kwh": 304787899
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 211427,
+    "generation_kwh": 386696149
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 124050,
+    "generation_kwh": 18147321
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 66240,
+    "generation_kwh": 371138548
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46950700
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 62573,
+    "generation_kwh": 253066435
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 251756,
+    "generation_kwh": 603155279
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 301102,
+    "generation_kwh": 308354942
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 124050,
+    "generation_kwh": 9880729
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 226227,
+    "generation_kwh": 412565953
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 88202,
+    "generation_kwh": 525902844
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46871261
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 62573,
+    "generation_kwh": 261046870
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 257311,
+    "generation_kwh": 603990218
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 263013,
+    "generation_kwh": 305005226
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 170804,
+    "generation_kwh": 311054931
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 182050,
+    "generation_kwh": 6532384
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 46000,
+    "generation_kwh": 214924678
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46877861
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 15207,
+    "generation_kwh": 58879823
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 233500,
+    "generation_kwh": 549490534
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 277743,
+    "generation_kwh": 322450076
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 193011,
+    "generation_kwh": 350583576
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 124050,
+    "generation_kwh": 9164600
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 46000,
+    "generation_kwh": 203594282
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46870661
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 33740,
+    "generation_kwh": 136393408
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 233500,
+    "generation_kwh": 559264883
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 290207,
+    "generation_kwh": 312869597
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 211427,
+    "generation_kwh": 386555997
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 124050,
+    "generation_kwh": 16805571
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 46229,
+    "generation_kwh": 199600015
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46950700
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 58617,
+    "generation_kwh": 240871774
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 242793,
+    "generation_kwh": 579918625
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 300889,
+    "generation_kwh": 324617726
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 124050,
+    "generation_kwh": 9579237
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 226227,
+    "generation_kwh": 412483881
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 64290,
+    "generation_kwh": 319143127
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46871261
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 58617,
+    "generation_kwh": 249375717
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 249353,
+    "generation_kwh": 587663285
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 263013,
+    "generation_kwh": 292574067
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 170804,
+    "generation_kwh": 311301439
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 182050,
+    "generation_kwh": 21453368
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 47193,
+    "generation_kwh": 235313090
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46877861
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 51177,
+    "generation_kwh": 213158942
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 236678,
+    "generation_kwh": 566479072
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 277743,
+    "generation_kwh": 301273850
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 193011,
+    "generation_kwh": 352155631
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 124050,
+    "generation_kwh": 18557760
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 56722,
+    "generation_kwh": 294759615
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46870661
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 56220,
+    "generation_kwh": 232570943
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 240929,
+    "generation_kwh": 577752864
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 290207,
+    "generation_kwh": 300566951
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 211427,
+    "generation_kwh": 385760572
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 124050,
+    "generation_kwh": 18614271
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 67637,
+    "generation_kwh": 386909023
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46950700
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 62884,
+    "generation_kwh": 261909997
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 253230,
+    "generation_kwh": 597798933
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 301103,
+    "generation_kwh": 324933138
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 124050,
+    "generation_kwh": 9942860
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 226227,
+    "generation_kwh": 412718155
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "geo",
+    "renewable": true,
+    "capacity_kw": 88660,
+    "generation_kwh": 533939617
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 17750,
+    "generation_kwh": 46871261
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 62884,
+    "generation_kwh": 257675064
+  },
+  {
+    "island": "Hawaii Island",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 258774,
+    "generation_kwh": 609128578
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 151739,
+    "generation_kwh": 152911430
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 32892198
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 58651,
+    "generation_kwh": 78216403
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 21140009
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 42332721
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64405123
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 200054,
+    "generation_kwh": 377448703
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 179459,
+    "generation_kwh": 169391986
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 29151716
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 64364,
+    "generation_kwh": 88355612
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 19166206
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 38169507
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64111242
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 210593,
+    "generation_kwh": 393576682
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 200463,
+    "generation_kwh": 178337751
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 28164795
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 68419,
+    "generation_kwh": 94988784
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 20355587
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 36334597
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64242516
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 221662,
+    "generation_kwh": 413289827
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 216890,
+    "generation_kwh": 183296563
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 111250,
+    "generation_kwh": 17546111
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 24438073
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 71463,
+    "generation_kwh": 98698696
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 41275484
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 63462565
+  },
+  {
+    "island": "Kauai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 254099,
+    "generation_kwh": 448730659
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 152142,
+    "generation_kwh": 153810990
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 33304188
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 58651,
+    "generation_kwh": 78596937
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 21892608
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 42528499
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64371918
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 201997,
+    "generation_kwh": 380496759
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 180271,
+    "generation_kwh": 172277152
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 33804428
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 64364,
+    "generation_kwh": 88679908
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 27404268
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 41536831
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64721315
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 224781,
+    "generation_kwh": 419415341
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 205263,
+    "generation_kwh": 190264369
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 34187646
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 68419,
+    "generation_kwh": 95640523
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 33539500
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 41958467
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64849227
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 256970,
+    "generation_kwh": 473170312
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 243526,
+    "generation_kwh": 224246129
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 111250,
+    "generation_kwh": 23970472
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 24533738
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 71463,
+    "generation_kwh": 99597931
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 42252014
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 63671288
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 322186,
+    "generation_kwh": 553763349
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 142758,
+    "generation_kwh": 136061225
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 31206197
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 58651,
+    "generation_kwh": 78916861
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 16269492
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 42717300
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64314281
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 178626,
+    "generation_kwh": 338178958
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 170477,
+    "generation_kwh": 153420724
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 30992633
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 64364,
+    "generation_kwh": 88925228
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 19422121
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 40970235
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64526418
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 197224,
+    "generation_kwh": 370295022
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 191856,
+    "generation_kwh": 165194819
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 33805684
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 68419,
+    "generation_kwh": 95878022
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 26765862
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 42648800
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64860522
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 222103,
+    "generation_kwh": 412959491
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 225874,
+    "generation_kwh": 195611047
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 111250,
+    "generation_kwh": 19793313
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 24631552
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 71463,
+    "generation_kwh": 99732918
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 43063772
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 63835102
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 277429,
+    "generation_kwh": 483214499
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 156062,
+    "generation_kwh": 162506706
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 34046471
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 58651,
+    "generation_kwh": 78854923
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 25019613
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 41765386
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64412236
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 213344,
+    "generation_kwh": 401658570
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 183781,
+    "generation_kwh": 179931259
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 32692517
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 64364,
+    "generation_kwh": 88758931
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 27602959
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 40086585
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64577780
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 233152,
+    "generation_kwh": 434613220
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 205556,
+    "generation_kwh": 192561923
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 34129198
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 68419,
+    "generation_kwh": 95945429
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 111250,
+    "generation_kwh": 34218201
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 41453004
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 64708463
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 260623,
+    "generation_kwh": 479426350
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 243967,
+    "generation_kwh": 224820645
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 111250,
+    "generation_kwh": 24078338
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 6700,
+    "generation_kwh": 24502575
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 71463,
+    "generation_kwh": 99370325
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "hydro (pumped storage)",
+    "renewable": false,
+    "capacity_kw": 20000,
+    "generation_kwh": 42402512
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "hydro (run-of-river)",
+    "renewable": true,
+    "capacity_kw": 20320,
+    "generation_kwh": 63509152
+  },
+  {
+    "island": "Kauai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 324279,
+    "generation_kwh": 557010164
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16044,
+    "generation_kwh": 15909968
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1253,
+    "generation_kwh": 2218511
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1327350
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 18131,
+    "generation_kwh": 33507137
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16184,
+    "generation_kwh": 16097561
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1547,
+    "generation_kwh": 2711833
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1277322
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 18264,
+    "generation_kwh": 33561939
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16297,
+    "generation_kwh": 16314058
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1725,
+    "generation_kwh": 3019655
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1264091
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 18594,
+    "generation_kwh": 34101135
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16404,
+    "generation_kwh": 16646759
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 10400,
+    "generation_kwh": 996882
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1903,
+    "generation_kwh": 3335285
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 20083,
+    "generation_kwh": 35026652
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16044,
+    "generation_kwh": 15826121
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1253,
+    "generation_kwh": 2220239
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1331057
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 18004,
+    "generation_kwh": 33327381
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16184,
+    "generation_kwh": 16653239
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1547,
+    "generation_kwh": 2707560
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1422096
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 19088,
+    "generation_kwh": 35164254
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16297,
+    "generation_kwh": 17633740
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1725,
+    "generation_kwh": 3013138
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1536235
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 20704,
+    "generation_kwh": 37853948
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16404,
+    "generation_kwh": 18518170
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 10400,
+    "generation_kwh": 1367866
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1903,
+    "generation_kwh": 3301139
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 23163,
+    "generation_kwh": 40350450
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16044,
+    "generation_kwh": 13815295
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1253,
+    "generation_kwh": 2207004
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 848885
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 15812,
+    "generation_kwh": 28588809
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16184,
+    "generation_kwh": 14004569
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1547,
+    "generation_kwh": 2688393
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 982550
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 15812,
+    "generation_kwh": 29029596
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16297,
+    "generation_kwh": 14902750
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1725,
+    "generation_kwh": 3010118
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1001267
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 17266,
+    "generation_kwh": 31331860
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16404,
+    "generation_kwh": 15706239
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 10400,
+    "generation_kwh": 912460
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1903,
+    "generation_kwh": 3301128
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 19063,
+    "generation_kwh": 33454433
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16044,
+    "generation_kwh": 16233749
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1253,
+    "generation_kwh": 2213905
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1424313
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 18534,
+    "generation_kwh": 34327531
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16184,
+    "generation_kwh": 16838218
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1547,
+    "generation_kwh": 2720609
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1494907
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 19365,
+    "generation_kwh": 35745064
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16297,
+    "generation_kwh": 17717940
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1725,
+    "generation_kwh": 3018259
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 10400,
+    "generation_kwh": 1578239
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 20866,
+    "generation_kwh": 38199053
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 16404,
+    "generation_kwh": 18571328
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 10400,
+    "generation_kwh": 1393958
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1903,
+    "generation_kwh": 3296104
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Lanai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 23253,
+    "generation_kwh": 40578301
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 404548,
+    "generation_kwh": 781970126
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 187254,
+    "generation_kwh": 352023892
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 66396241
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 69343,
+    "generation_kwh": 277990810
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 345243,
+    "generation_kwh": 697633997
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 419991,
+    "generation_kwh": 699287601
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 208733,
+    "generation_kwh": 395577734
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 82707602
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 53329,
+    "generation_kwh": 195285772
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 357770,
+    "generation_kwh": 746034298
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 432261,
+    "generation_kwh": 443401785
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 224663,
+    "generation_kwh": 415579020
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 84402672
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 60479,
+    "generation_kwh": 238803578
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 366093,
+    "generation_kwh": 694555805
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 455164,
+    "generation_kwh": 1129961565
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 172288,
+    "generation_kwh": 42336552
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 235666,
+    "generation_kwh": 445983044
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 85668,
+    "generation_kwh": 312913638
+  },
+  {
+    "island": "Maui",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 430280,
+    "generation_kwh": 800984495
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 427574,
+    "generation_kwh": 830291434
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 187254,
+    "generation_kwh": 352509738
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 65163935
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 70298,
+    "generation_kwh": 282837274
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 345519,
+    "generation_kwh": 704214012
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 442802,
+    "generation_kwh": 711502160
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 208733,
+    "generation_kwh": 395878212
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 94229163
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 63498,
+    "generation_kwh": 236160646
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 371246,
+    "generation_kwh": 773809366
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 456136,
+    "generation_kwh": 437307224
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 224663,
+    "generation_kwh": 418882499
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 99572559
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 89690,
+    "generation_kwh": 333264977
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 394549,
+    "generation_kwh": 749165149
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 507426,
+    "generation_kwh": 668974107
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 186528,
+    "generation_kwh": 56455224
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 235666,
+    "generation_kwh": 444059694
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 118797,
+    "generation_kwh": 400783413
+  },
+  {
+    "island": "Maui",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 497238,
+    "generation_kwh": 867622298
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 427574,
+    "generation_kwh": 429766713
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 187254,
+    "generation_kwh": 345102212
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 43660431
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 42000,
+    "generation_kwh": 171767115
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 345243,
+    "generation_kwh": 615924318
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 442659,
+    "generation_kwh": 453401548
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 208733,
+    "generation_kwh": 389723308
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 66796321
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 30428,
+    "generation_kwh": 104844943
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 347593,
+    "generation_kwh": 695395269
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 455972,
+    "generation_kwh": 782222893
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 224663,
+    "generation_kwh": 428662546
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 72131468
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 51967,
+    "generation_kwh": 190086384
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 361828,
+    "generation_kwh": 740352880
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 475019,
+    "generation_kwh": 663062819
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 171210,
+    "generation_kwh": 41263524
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 235666,
+    "generation_kwh": 441961221
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 84674,
+    "generation_kwh": 271607743
+  },
+  {
+    "island": "Maui",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 427196,
+    "generation_kwh": 767901144
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 427574,
+    "generation_kwh": 771016436
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 187254,
+    "generation_kwh": 352587834
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 72726953
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 78985,
+    "generation_kwh": 316090190
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 349114,
+    "generation_kwh": 706659598
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 442815,
+    "generation_kwh": 764181558
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 208733,
+    "generation_kwh": 396610380
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 100444743
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 67401,
+    "generation_kwh": 257103393
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 373487,
+    "generation_kwh": 783004105
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 456142,
+    "generation_kwh": 818836318
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 224663,
+    "generation_kwh": 427538229
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 154520,
+    "generation_kwh": 102381087
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 91707,
+    "generation_kwh": 343918749
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 395787,
+    "generation_kwh": 802012825
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 507907,
+    "generation_kwh": 668570385
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 186883,
+    "generation_kwh": 56945649
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 235666,
+    "generation_kwh": 443872549
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 119533,
+    "generation_kwh": 405320881
+  },
+  {
+    "island": "Maui",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 498523,
+    "generation_kwh": 868523454
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 10880,
+    "generation_kwh": 17585793
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 3681,
+    "generation_kwh": 7564180
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 2990697
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 15025,
+    "generation_kwh": 28601218
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 11497,
+    "generation_kwh": 18280940
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 4155,
+    "generation_kwh": 8445400
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 2762101
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 15852,
+    "generation_kwh": 29636042
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 12152,
+    "generation_kwh": 19074947
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 4451,
+    "generation_kwh": 9012279
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 2519866
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 17154,
+    "generation_kwh": 31677032
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 14499,
+    "generation_kwh": 20932522
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 1731,
+    "generation_kwh": 906962
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 5526,
+    "generation_kwh": 9813994
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 22283,
+    "generation_kwh": 35285670
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 10882,
+    "generation_kwh": 17527246
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 3681,
+    "generation_kwh": 7549067
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 2961876
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 14890,
+    "generation_kwh": 28305934
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 12149,
+    "generation_kwh": 19530350
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 4155,
+    "generation_kwh": 8547572
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 3026910
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 17572,
+    "generation_kwh": 32875587
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 13567,
+    "generation_kwh": 21749174
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 4451,
+    "generation_kwh": 9115943
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 2957291
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 21076,
+    "generation_kwh": 38895988
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 17047,
+    "generation_kwh": 25036511
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 2018,
+    "generation_kwh": 1086304
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 7825,
+    "generation_kwh": 11215407
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 26512,
+    "generation_kwh": 44511155
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 9760,
+    "generation_kwh": 15341776
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 3681,
+    "generation_kwh": 7537888
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 2528231
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 12599,
+    "generation_kwh": 23854690
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 10653,
+    "generation_kwh": 16654650
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 4155,
+    "generation_kwh": 8498594
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 2527682
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 14457,
+    "generation_kwh": 26932503
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 11807,
+    "generation_kwh": 18523078
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 4451,
+    "generation_kwh": 9082425
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 2489362
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 17322,
+    "generation_kwh": 31951475
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 14906,
+    "generation_kwh": 21357671
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 1764,
+    "generation_kwh": 946966
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 5859,
+    "generation_kwh": 10084331
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 23395,
+    "generation_kwh": 37440971
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 11333,
+    "generation_kwh": 18383686
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 3681,
+    "generation_kwh": 7559946
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 3201811
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 16127,
+    "generation_kwh": 30692052
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 12411,
+    "generation_kwh": 19976422
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 4155,
+    "generation_kwh": 8527875
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 3135542
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 18303,
+    "generation_kwh": 34311966
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 13674,
+    "generation_kwh": 21948943
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 4451,
+    "generation_kwh": 9097772
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 15180,
+    "generation_kwh": 2999963
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 21499,
+    "generation_kwh": 39696855
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 17171,
+    "generation_kwh": 25137245
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 2032,
+    "generation_kwh": 1093723
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 7899,
+    "generation_kwh": 11222412
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Molokai",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 26696,
+    "generation_kwh": 44926550
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1403990,
+    "generation_kwh": 1899316271
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 356840,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 802762,
+    "generation_kwh": 1540235313
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 1045712,
+    "generation_kwh": 1122855136
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 286200,
+    "generation_kwh": 1048186343
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1747785,
+    "generation_kwh": 3458339526
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2030,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 395354915
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1422254,
+    "generation_kwh": 3515985192
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 564840,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 880965,
+    "generation_kwh": 1657286922
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 672775,
+    "generation_kwh": 389219891
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 250762,
+    "generation_kwh": 1349569620
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 256200,
+    "generation_kwh": 969673495
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1747785,
+    "generation_kwh": 3390619341
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2035,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 231445357
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1476317,
+    "generation_kwh": 1984171766
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 564840,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 936462,
+    "generation_kwh": 1756411451
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 501311,
+    "generation_kwh": 432868432
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 250762,
+    "generation_kwh": 1408206996
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 309694,
+    "generation_kwh": 972830069
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1735488,
+    "generation_kwh": 3222423934
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2040,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 251917094
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1562801,
+    "generation_kwh": 2460175554
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 693840,
+    "generation_kwh": 266100013
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 37379,
+    "generation_kwh": 126479135
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1001870,
+    "generation_kwh": 1908456659
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 250762,
+    "generation_kwh": 1352786163
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 454200,
+    "generation_kwh": 1209483346
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1776758,
+    "generation_kwh": 3287565390
+  },
+  {
+    "island": "Oahu",
+    "scenario": "reference-managed",
+    "year": 2045,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 234378300
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1461385,
+    "generation_kwh": 1986737348
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 356840,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 802762,
+    "generation_kwh": 1544363156
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 1045712,
+    "generation_kwh": 1145132398
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 286200,
+    "generation_kwh": 1039237598
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1886939,
+    "generation_kwh": 3719425788
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2030,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 395950039
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1479650,
+    "generation_kwh": 2059891171
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 564840,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 880965,
+    "generation_kwh": 1657897087
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 672775,
+    "generation_kwh": 511974198
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 347511,
+    "generation_kwh": 1855665884
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 286200,
+    "generation_kwh": 980864583
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1886939,
+    "generation_kwh": 3491602590
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2035,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 244039419
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1571771,
+    "generation_kwh": 3299656719
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 564840,
+    "generation_kwh": 3912203
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1238428,
+    "generation_kwh": 2327517225
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 501311,
+    "generation_kwh": 664388513
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 389107,
+    "generation_kwh": 2133595131
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 325200,
+    "generation_kwh": 1011435953
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1880544,
+    "generation_kwh": 3588456866
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2040,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 264466265
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1788876,
+    "generation_kwh": 3697412128
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 693840,
+    "generation_kwh": 347794969
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 91080,
+    "generation_kwh": 332129310
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1449990,
+    "generation_kwh": 2685321146
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 389107,
+    "generation_kwh": 2155701624
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 454200,
+    "generation_kwh": 1247267135
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 2157911,
+    "generation_kwh": 3998617430
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s1-managed",
+    "year": 2045,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 256445527
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1268601,
+    "generation_kwh": 1600021435
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 356840,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 802762,
+    "generation_kwh": 1542559488
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 1045712,
+    "generation_kwh": 979315748
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 286200,
+    "generation_kwh": 1059779581
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1400190,
+    "generation_kwh": 2786538310
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2030,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 391291281
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1286866,
+    "generation_kwh": 2773512203
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 564840,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 880965,
+    "generation_kwh": 1672028006
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 672775,
+    "generation_kwh": 390858774
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 262713,
+    "generation_kwh": 1389029158
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 256200,
+    "generation_kwh": 964531147
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1400190,
+    "generation_kwh": 2735497006
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2035,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 244604815
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1381386,
+    "generation_kwh": 1731905881
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 564840,
+    "generation_kwh": 129056
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1012115,
+    "generation_kwh": 1880410066
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 501311,
+    "generation_kwh": 515547143
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 279888,
+    "generation_kwh": 1549054090
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 325200,
+    "generation_kwh": 1022376473
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1486070,
+    "generation_kwh": 2798358134
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2040,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 274864218
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1551653,
+    "generation_kwh": 2310611805
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 693840,
+    "generation_kwh": 289112156
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 52792,
+    "generation_kwh": 190896832
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1124735,
+    "generation_kwh": 2113958436
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 279888,
+    "generation_kwh": 1518472885
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 454200,
+    "generation_kwh": 1243976183
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 1734433,
+    "generation_kwh": 3182310349
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s2-managed",
+    "year": 2045,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 251141880
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1518560,
+    "generation_kwh": 2131772635
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 356840,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 802762,
+    "generation_kwh": 1550746141
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 1045712,
+    "generation_kwh": 1179853443
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 286200,
+    "generation_kwh": 1030819582
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 2027868,
+    "generation_kwh": 4001070159
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2030,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 398112518
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1536825,
+    "generation_kwh": 2173002597
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 564840,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 880965,
+    "generation_kwh": 1657712870
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 672775,
+    "generation_kwh": 504166334
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 337457,
+    "generation_kwh": 1809297767
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 286200,
+    "generation_kwh": 978558164
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 2028404,
+    "generation_kwh": 3743199571
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2035,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 242483765
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1677046,
+    "generation_kwh": 3698936114
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 564840,
+    "generation_kwh": 6462037
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1283829,
+    "generation_kwh": 2401464851
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 501311,
+    "generation_kwh": 678727890
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 391124,
+    "generation_kwh": 2159653286
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 325200,
+    "generation_kwh": 1014542366
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 2119173,
+    "generation_kwh": 4017074739
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2040,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 262759712
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "battery",
+    "renewable": false,
+    "capacity_kw": 1951154,
+    "generation_kwh": 4018466555
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biofuel",
+    "renewable": true,
+    "capacity_kw": 693840,
+    "generation_kwh": 363036689
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "biomass",
+    "renewable": true,
+    "capacity_kw": 98134,
+    "generation_kwh": 367995454
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "dgpv",
+    "renewable": true,
+    "capacity_kw": 1813024,
+    "generation_kwh": 3335332583
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "fossil",
+    "renewable": false,
+    "capacity_kw": 0,
+    "generation_kwh": 0
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "offshore wind",
+    "renewable": true,
+    "capacity_kw": 391124,
+    "generation_kwh": 2157109051
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "onshore wind",
+    "renewable": true,
+    "capacity_kw": 454200,
+    "generation_kwh": 1243051521
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "pv",
+    "renewable": true,
+    "capacity_kw": 2266661,
+    "generation_kwh": 4185419669
+  },
+  {
+    "island": "Oahu",
+    "scenario": "s3-managed",
+    "year": 2045,
+    "resource": "waste-to-energy",
+    "renewable": true,
+    "capacity_kw": 68500,
+    "generation_kwh": 261439790
+  }
+]

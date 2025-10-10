@@ -1,0 +1,17 @@
+{
+    "scrollViewContent": 
+    [
+        "January Average",
+        "December Average",
+        "November Average",
+        "October Average",
+        "September Average",
+        "August Average",
+        "July Average",
+        "June Average",
+        "May Average",
+        "April Average",
+        "March Average",
+        "February Average"
+    ]
+}
