@@ -299,6 +299,9 @@ public class PrebuiltStory : MonoBehaviour
         playButtonImage.sprite = IsPlaying ? pauseSprite : playSprite;
     }
 
+    //TODO: Skip forward 1 desc
+    //TODO: Go backwards 1 desc
+
     public void OnStorySelected()
     {
         HistStateManager.Instance.HandleStorySelection(this);
