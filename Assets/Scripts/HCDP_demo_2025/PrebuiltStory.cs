@@ -25,7 +25,6 @@ public class Story
 [Serializable]
 public class MapData
 {
-    // public int identifier;
     public string[] dataType;
     public string[] timeType;
     public string[] mapPaths;
@@ -68,7 +67,14 @@ public class PrebuiltStory : MonoBehaviour
     [Header("Table Elements")]
     public TMP_Text leftStoryLabel;
     public TMP_Text rightStoryLabel;
-    public Button playStoryButton; // Optional manual control
+    public Button playStoryButton;
+
+    [Header("Audio")]
+    public AudioClip[] pageAudios;
+    private AudioSource audioSource;
+    private int currentAudioIndex = 0;
+    [Tooltip("Buffer time in seconds between audio clips")]
+    public float audioBufferTime = 2f;
 
     [Header("Play/Pause Sprites")]
     public Sprite playSprite;
@@ -80,12 +86,20 @@ public class PrebuiltStory : MonoBehaviour
     // Coroutines
     private Coroutine leftStoryCoroutine;
     private Coroutine rightStoryCoroutine;
+    private Coroutine audioCoroutine;
 
     public int leftStoryIndex = 0;
     public int rightStoryIndex = 0;
 
     private void Start()
     {
+        // Get or add AudioSource component
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
         LoadStoryData();
 
         storyTitle.text = myStory.name;
@@ -114,6 +128,45 @@ public class PrebuiltStory : MonoBehaviour
         else
         {
             ParseMapPaths();
+        }
+    }
+
+    private void ParseMapPaths()
+    {
+        //TODO: ALLOW FOR BLANK PATHS TO SHOW BASE MAP
+
+        leftMapYears = new int[myStory.leftMap.mapPaths.Length];
+        leftMapMonths = new int[myStory.leftMap.mapPaths.Length];
+
+        for (int i = 0; i < myStory.leftMap.mapPaths.Length; i++)
+        {
+            string[] parts = myStory.leftMap.mapPaths[i].Split('_');
+            if (parts.Length == 2 && int.TryParse(parts[0], out int year) && int.TryParse(parts[1], out int month))
+            {
+                leftMapYears[i] = year;
+                leftMapMonths[i] = month;
+            }
+            else
+            {
+                Debug.LogWarning($"Invalid leftMap path format: {myStory.leftMap.mapPaths[i]}");
+            }
+        }
+
+        rightMapYears = new int[myStory.rightMap.mapPaths.Length];
+        rightMapMonths = new int[myStory.rightMap.mapPaths.Length];
+
+        for (int i = 0; i < myStory.rightMap.mapPaths.Length; i++)
+        {
+            string[] parts = myStory.rightMap.mapPaths[i].Split('_');
+            if (parts.Length == 2 && int.TryParse(parts[0], out int year) && int.TryParse(parts[1], out int month))
+            {
+                rightMapYears[i] = year;
+                rightMapMonths[i] = month;
+            }
+            else
+            {
+                Debug.LogWarning($"Invalid rightMap path format: {myStory.rightMap.mapPaths[i]}");
+            }
         }
     }
 
@@ -153,8 +206,19 @@ public class PrebuiltStory : MonoBehaviour
             // storyProgressBar.SetValue((float) percentage);
             // Debug.Log((float) percentage);
 
-            float waitTime = myStory.mapTransitionTimes[leftStoryIndex];
-            leftStoryIndex++;
+            // float waitTime = myStory.mapTransitionTimes[leftStoryIndex];
+            // Determine wait time: use audio clip length if available, otherwise use mapTransitionTimes
+            float waitTime;
+            if (pageAudios != null && leftStoryIndex < pageAudios.Length && pageAudios[leftStoryIndex] != null)
+            {
+                waitTime = pageAudios[leftStoryIndex].length + audioBufferTime;
+            }
+            else
+            {
+                waitTime = myStory.mapTransitionTimes[leftStoryIndex];
+            }
+
+            // leftStoryIndex++;
 
             storyProgressBar.isOn = true;
             double percentage = (double)leftStoryIndex / leftMapYears.Length * 100;
@@ -162,6 +226,8 @@ public class PrebuiltStory : MonoBehaviour
             Debug.Log((float)percentage);
 
             yield return new WaitForSeconds(waitTime);
+
+            leftStoryIndex++;
             // yield return new WaitForSeconds(myStory.leftMap.mapTransitionTimes[leftStoryIndex]);
         }
     }
@@ -195,56 +261,31 @@ public class PrebuiltStory : MonoBehaviour
                 enso
             );
 
-            float waitTime = myStory.mapTransitionTimes[rightStoryIndex];
-            rightStoryIndex++;
+            // float waitTime = myStory.mapTransitionTimes[rightStoryIndex];
+            // Determine wait time: use audio clip length if available, otherwise use mapTransitionTimes
+            float waitTime;
+            if (pageAudios != null && rightStoryIndex < pageAudios.Length && pageAudios[rightStoryIndex] != null)
+            {
+                waitTime = pageAudios[rightStoryIndex].length + audioBufferTime;
+            }
+            else
+            {
+                waitTime = myStory.mapTransitionTimes[rightStoryIndex];
+            }
+
+            // rightStoryIndex++;
             yield return new WaitForSeconds(waitTime);
+            rightStoryIndex++;
+
             // yield return new WaitForSeconds(myStory.rightMap.mapTransitionTimes[rightStoryIndex]);
         }
     }
 
 
-    private void ParseMapPaths()
-    {
-        leftMapYears = new int[myStory.leftMap.mapPaths.Length];
-        leftMapMonths = new int[myStory.leftMap.mapPaths.Length];
-
-        for (int i = 0; i < myStory.leftMap.mapPaths.Length; i++)
-        {
-            string[] parts = myStory.leftMap.mapPaths[i].Split('_');
-            if (parts.Length == 2 && int.TryParse(parts[0], out int year) && int.TryParse(parts[1], out int month))
-            {
-                leftMapYears[i] = year;
-                leftMapMonths[i] = month;
-            }
-            else
-            {
-                Debug.LogWarning($"Invalid leftMap path format: {myStory.leftMap.mapPaths[i]}");
-            }
-        }
-
-        rightMapYears = new int[myStory.rightMap.mapPaths.Length];
-        rightMapMonths = new int[myStory.rightMap.mapPaths.Length];
-
-        for (int i = 0; i < myStory.rightMap.mapPaths.Length; i++)
-        {
-            string[] parts = myStory.rightMap.mapPaths[i].Split('_');
-            if (parts.Length == 2 && int.TryParse(parts[0], out int year) && int.TryParse(parts[1], out int month))
-            {
-                rightMapYears[i] = year;
-                rightMapMonths[i] = month;
-            }
-            else
-            {
-                Debug.LogWarning($"Invalid rightMap path format: {myStory.rightMap.mapPaths[i]}");
-            }
-        }
-    }
-
     public void PlayStory()
     {
         if (IsPlaying) return;
 
-        // ✅ Clear lingering visuals
         leftMapLoader?.ResetLabelsAndMap();
         rightMapLoader?.ResetLabelsAndMap();
 
@@ -255,6 +296,9 @@ public class PrebuiltStory : MonoBehaviour
 
         leftStoryCoroutine = StartCoroutine(LoadLeftMapStory());
         rightStoryCoroutine = StartCoroutine(LoadRightMapStory());
+
+        // Play or resume audio
+        PlayAudio();
 
         UpdatePlayButtonImage();
     }
@@ -280,6 +324,16 @@ public class PrebuiltStory : MonoBehaviour
             rightStoryCoroutine = null;
         }
 
+        // Stop audio coroutine
+        if (audioCoroutine != null)
+        {
+            StopCoroutine(audioCoroutine);
+            audioCoroutine = null;
+        }
+
+        // Pause audio
+        PauseAudio();
+
         UpdatePlayButtonImage();
     }
 
@@ -291,12 +345,80 @@ public class PrebuiltStory : MonoBehaviour
             PlayStory();
     }
 
+
+
     private void UpdatePlayButtonImage()
     {
         if (playButtonImage == null || playSprite == null || pauseSprite == null)
             return;
 
         playButtonImage.sprite = IsPlaying ? pauseSprite : playSprite;
+    }
+
+    /// <summary>
+    /// Audio controls
+    /// </summary>
+    private void PlayAudio()
+    {
+        if (pageAudios == null || pageAudios.Length == 0)
+        {
+            Debug.LogWarning("No audio clips assigned to pageAudios array!");
+            return;
+        }
+
+        // If audio is paused (clip exists and has played some amount), resume it
+        if (audioSource.clip != null && audioSource.time > 0 && !audioSource.isPlaying)
+        {
+            audioSource.UnPause();
+            // Restart the coroutine to continue after this clip finishes
+            if (audioCoroutine == null)
+            {
+                audioCoroutine = StartCoroutine(AudioPlaybackCoroutine());
+            }
+        }
+        else
+        {
+            // Start the audio playback coroutine from current index
+            if (audioCoroutine == null)
+            {
+                audioCoroutine = StartCoroutine(AudioPlaybackCoroutine());
+            }
+        }
+    }
+
+    private void PauseAudio()
+    {
+        if (audioSource.isPlaying)
+        {
+            audioSource.Pause();
+        }
+    }
+
+    private IEnumerator AudioPlaybackCoroutine()
+    {
+        while (IsPlaying && currentAudioIndex < pageAudios.Length)
+        {
+            if (pageAudios[currentAudioIndex] != null)
+            {
+                audioSource.clip = pageAudios[currentAudioIndex];
+                audioSource.Play();
+
+                // Wait for the clip to finish
+                yield return new WaitWhile(() => audioSource.isPlaying);
+
+                // Wait for buffer time before next audio
+                yield return new WaitForSeconds(audioBufferTime);
+            }
+
+            // Only increment after audio and buffer time complete
+            currentAudioIndex++;
+
+            // Loop back if needed
+            if (currentAudioIndex >= pageAudios.Length && storyShouldLoop)
+            {
+                currentAudioIndex = 0;
+            }
+        }
     }
 
     //TODO: Skip forward 1 desc
@@ -312,6 +434,11 @@ public class PrebuiltStory : MonoBehaviour
         PauseStory();
         leftStoryIndex = 0;
         rightStoryIndex = 0;
+
+        currentAudioIndex = 0;
+        audioSource.Stop();
+        audioSource.time = 0;
+
         PlayStory();
     }
 
@@ -331,6 +458,11 @@ public class PrebuiltStory : MonoBehaviour
         // Reset indices
         leftStoryIndex = 0;
         rightStoryIndex = 0;
+
+        // Stop and reset audio
+        audioSource.Stop();
+        audioSource.clip = null;
+        audioSource.time = 0;
 
         // Clear labels
         leftStoryLabel.text = "";

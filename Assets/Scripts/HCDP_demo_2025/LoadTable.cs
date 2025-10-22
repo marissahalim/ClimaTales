@@ -164,7 +164,7 @@ public class LoadTable : MonoBehaviour
         }
         else
         {
-            Debug.LogError($"Failed to load texture: {fullPath}");
+            Debug.LogWarning($"Failed to load texture: {fullPath}");
         }
     }
 

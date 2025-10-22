@@ -2,6 +2,7 @@
     "name": "El Nino vs La Nina Winter Rainfall",
     "description": "In Hawaiʻi, El Niño and La Niña have significant impacts on seasonal rainfall, temperature, and wind. El Niño weakens the trade winds, warms the ocean, and increases drought risk, while La Niña generally brings the opposite. Recognizing these patterns helps communities prepare in advance—for example, farmers and ranchers can plan for drought by storing water, reserving supplies, or adjusting their herds.",
     "mapDesc": [
+        "In Hawaiʻi, El Niño and La Niña have significant impacts on seasonal rainfall, temperature, and wind. El Niño weakens the trade winds, warms the ocean, and increases drought risk, while La Niña generally brings the opposite. Recognizing these patterns helps communities prepare in advance—for example, farmers and ranchers can plan for drought by storing water, reserving supplies, or adjusting their herds.",
         "January 1998 shows the peak of a strong El Niño, with rainfall much lower than the climatological January average.",
         "In contrast, January 1999 saw much wetter conditions than normal due to a strong La Niña.",
         "Another El Niño year, 2010, also shows drier-than-average conditions compared to the climatological January.",
@@ -12,9 +13,12 @@
         "However, February 2019 was unusually wet, going against the typical El Niño expectation.",
         "During the sequence of La Niñas from 2020–2022, January 2020 rainfall was higher than normal, as expected.",
         "January 2021 also followed this La Niña pattern, with wetter-than-average conditions.",
-        "But January 2022 broke the trend, showing unusually low rainfall despite La Niña conditions."
+        "But January 2022 broke the trend, showing unusually low rainfall despite La Niña conditions.",
+        "These examples show that ENSO’s influence on rainfall in Hawaiʻi might have become less predictable. Research from UH (O’Connor et al. 2015) found that La Niña winters are trending drier, challenging the traditional view of how ENSO affects the islands. This shift has important implications for resource managers, making continued study essential for both scientific understanding and practical planning."
         ],
     "mapTransitionTimes":[
+        15,
+        15,
         15,
         15,
         15,
@@ -29,6 +33,7 @@
     ],
     "leftMap": {
         "dataType": [
+            "No Data",
             "Rain",
             "Rain",
             "Rain",
@@ -39,9 +44,11 @@
             "Rain",
             "Rain",
             "Rain",
-            "Rain"
+            "Rain",
+            "No Data"
         ],
         "timeType": [
+            "",
             "hist",
             "hist",
             "hist",
@@ -52,9 +59,11 @@
             "hist",
             "hist",
             "hist",
-            "hist"
+            "hist",
+            ""
         ],
         "mapPaths": [
+            "",
             "1998_01",
             "1999_01",
             "2010_01",
@@ -65,9 +74,11 @@
             "2019_02",
             "2020_01",
             "2021_01",
-            "2022_01"
+            "2022_01",
+            ""
         ],
         "mapLabels": [
+            "",
             "Strong El Nino - January 1998",
             "Strong La Nina - January 1999",
             "Standard El Nino - January 2010",
@@ -78,11 +89,13 @@
             "Unusually Wet El Nino - February 2019",
             "Standard El Nino - January 2020",
             "Standard El Nino - January 2021",
-            "Unusually Dry La Nina - January 2022"
+            "Unusually Dry La Nina - January 2022",
+            ""
         ]
     },
     "rightMap": {
         "dataType": [
+            "No Data",
             "Rain",
             "Rain",
             "Rain",
@@ -93,9 +106,11 @@
             "Rain",
             "Rain",
             "Rain",
-            "Rain"
+            "Rain",
+            "No Data"
         ],
         "timeType": [
+            "",
             "contemp",
             "contemp",
             "contemp",
@@ -106,9 +121,11 @@
             "contemp",
             "contemp",
             "contemp",
-            "contemp"
+            "contemp",
+            ""
         ],
         "mapPaths": [
+            "",
             "1998_01",
             "1999_01",
             "2010_01",
@@ -119,9 +136,11 @@
             "2019_02",
             "2020_01",
             "2021_01",
-            "2022_01"
+            "2022_01",
+            ""
         ],
         "mapLabels": [
+            "",
             "Average Rainfall over 30 years  - January",
             "Average Rainfall over 30 years  - January",
             "Average Rainfall over 30 years  - January",
@@ -132,7 +151,8 @@
             "Average Rainfall over 30 years  - February",
             "Average Rainfall over 30 years  - January",
             "Average Rainfall over 30 years  - January",
-            "Average Rainfall over 30 years  - January"
+            "Average Rainfall over 30 years  - January",
+            ""
         ]
     }
 }

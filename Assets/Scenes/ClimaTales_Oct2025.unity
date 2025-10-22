@@ -4095,6 +4095,21 @@ MonoBehaviour:
   leftStoryLabel: {fileID: 1982188524}
   rightStoryLabel: {fileID: 1596233922}
   playStoryButton: {fileID: 1160157671}
+  pageAudios:
+  - {fileID: 8300000, guid: 6a1452dc8a9af493c9fa1cadadfaa2f1, type: 3}
+  - {fileID: 8300000, guid: 3804c13503b5f496d992934f817d060f, type: 3}
+  - {fileID: 8300000, guid: fd21780a172184bbba5b840cd8d1cda9, type: 3}
+  - {fileID: 8300000, guid: 96558c881ac5e423e9033c3caa069582, type: 3}
+  - {fileID: 8300000, guid: 9e14cde0951fd49a0ba853ce3eefe731, type: 3}
+  - {fileID: 8300000, guid: 48959fde0bf064c49a2cbc19be12d294, type: 3}
+  - {fileID: 8300000, guid: e3fc723d3f6c8413696c06737d435616, type: 3}
+  - {fileID: 8300000, guid: e9eaada94ba16402a8747e748e7469d0, type: 3}
+  - {fileID: 8300000, guid: f9d3ff036137f47ff8db6a83fb796847, type: 3}
+  - {fileID: 8300000, guid: 5e7cf6c8591374c4f93185bfa84575a0, type: 3}
+  - {fileID: 8300000, guid: 01f3085c86db2464b9bd0ebe7b8b0caf, type: 3}
+  - {fileID: 8300000, guid: 911697da628504f68a478eb720b47cce, type: 3}
+  - {fileID: 8300000, guid: ff7ad0106c9df4c248c8117e68e5cfab, type: 3}
+  audioBufferTime: 1
   playSprite: {fileID: 21300000, guid: 12f136f851d190748b87007168cb66e8, type: 3}
   pauseSprite: {fileID: 21300000, guid: 80694812942b91b42bc4aad99071ba7e, type: 3}
   playButtonImage: {fileID: 1160157672}
@@ -11318,6 +11333,8 @@ MonoBehaviour:
   leftStoryLabel: {fileID: 1982188524}
   rightStoryLabel: {fileID: 1596233922}
   playStoryButton: {fileID: 1476268565}
+  pageAudios: []
+  audioBufferTime: 2
   playSprite: {fileID: 21300000, guid: 12f136f851d190748b87007168cb66e8, type: 3}
   pauseSprite: {fileID: 21300000, guid: 80694812942b91b42bc4aad99071ba7e, type: 3}
   playButtonImage: {fileID: 1476268566}
