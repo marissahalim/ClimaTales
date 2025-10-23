@@ -201,24 +201,16 @@ public class PrebuiltStory : MonoBehaviour
 
             mapDescHolder.text = myStory.mapDesc[leftStoryIndex];
 
-            // storyProgressBar.isOn = true;
-            // double percentage = (double)leftStoryIndex / leftMapYears.Length * 100;
-            // storyProgressBar.SetValue((float) percentage);
-            // Debug.Log((float) percentage);
-
-            // float waitTime = myStory.mapTransitionTimes[leftStoryIndex];
             // Determine wait time: use audio clip length if available, otherwise use mapTransitionTimes
-            float waitTime;
-            if (pageAudios != null && leftStoryIndex < pageAudios.Length && pageAudios[leftStoryIndex] != null)
-            {
-                waitTime = pageAudios[leftStoryIndex].length + audioBufferTime;
-            }
-            else
-            {
-                waitTime = myStory.mapTransitionTimes[leftStoryIndex];
-            }
-
-            // leftStoryIndex++;
+            float waitTime = pageAudios[leftStoryIndex].length + audioBufferTime;
+            // if (pageAudios != null && leftStoryIndex < pageAudios.Length && pageAudios[leftStoryIndex] != null)
+            // {
+            //     waitTime = pageAudios[leftStoryIndex].length + audioBufferTime;
+            // }
+            // else
+            // {
+            //     waitTime = myStory.mapTransitionTimes[leftStoryIndex];
+            // }
 
             storyProgressBar.isOn = true;
             double percentage = (double)leftStoryIndex / leftMapYears.Length * 100;
@@ -261,23 +253,20 @@ public class PrebuiltStory : MonoBehaviour
                 enso
             );
 
-            // float waitTime = myStory.mapTransitionTimes[rightStoryIndex];
             // Determine wait time: use audio clip length if available, otherwise use mapTransitionTimes
-            float waitTime;
-            if (pageAudios != null && rightStoryIndex < pageAudios.Length && pageAudios[rightStoryIndex] != null)
-            {
-                waitTime = pageAudios[rightStoryIndex].length + audioBufferTime;
-            }
-            else
-            {
-                waitTime = myStory.mapTransitionTimes[rightStoryIndex];
-            }
+            float waitTime = pageAudios[rightStoryIndex].length + audioBufferTime;;
+            // if (pageAudios != null && rightStoryIndex < pageAudios.Length && pageAudios[rightStoryIndex] != null)
+            // {
+            //     waitTime = pageAudios[rightStoryIndex].length + audioBufferTime;
+            // }
+            // else
+            // {
+            //     waitTime = myStory.mapTransitionTimes[rightStoryIndex];
+            // }
 
-            // rightStoryIndex++;
             yield return new WaitForSeconds(waitTime);
             rightStoryIndex++;
 
-            // yield return new WaitForSeconds(myStory.rightMap.mapTransitionTimes[rightStoryIndex]);
         }
     }
 
@@ -414,10 +403,10 @@ public class PrebuiltStory : MonoBehaviour
             currentAudioIndex++;
 
             // Loop back if needed
-            if (currentAudioIndex >= pageAudios.Length && storyShouldLoop)
-            {
-                currentAudioIndex = 0;
-            }
+            // if (currentAudioIndex >= pageAudios.Length && storyShouldLoop)
+            // {
+            //     currentAudioIndex = 0;
+            // }
         }
     }
 
@@ -429,6 +418,7 @@ public class PrebuiltStory : MonoBehaviour
         HistStateManager.Instance.HandleStorySelection(this);
     }
 
+    // Not being used anymore because we don't want to loop stories
     public void RestartStory()
     {
         PauseStory();
@@ -450,6 +440,7 @@ public class PrebuiltStory : MonoBehaviour
         rightStoryLabel.text = "";
     }
 
+    // 
     public void ResetStory()
     {
         // Stop any ongoing story playback

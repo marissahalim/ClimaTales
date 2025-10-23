@@ -12356,6 +12356,7 @@ MonoBehaviour:
   mapTexture: {fileID: 1353328353}
   futureMapTexture: {fileID: 2023188945}
   basePath: Textures
+  island: Oahu
   dataController: {fileID: 300890695}
   futureDataController: {fileID: 432520608}
   scalesManager: {fileID: 1997367311}
@@ -20520,6 +20521,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5210632358783498338, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5210632358783498339, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -20538,7 +20544,7 @@ PrefabInstance:
     - target: {fileID: 5210632358783498339, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.65
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5210632358783498339, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
         type: 3}
@@ -20553,7 +20559,7 @@ PrefabInstance:
     - target: {fileID: 5210632358783498339, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
         type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22060,6 +22066,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5210632358783498338, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5210632358783498339, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -22078,7 +22089,7 @@ PrefabInstance:
     - target: {fileID: 5210632358783498339, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.65
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 5210632358783498339, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
         type: 3}
@@ -22093,7 +22104,7 @@ PrefabInstance:
     - target: {fileID: 5210632358783498339, guid: ccdc9872e91df4ffd92bcecfbf198d6c,
         type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24677,6 +24688,7 @@ MonoBehaviour:
   mapTexture: {fileID: 1752701441}
   futureMapTexture: {fileID: 1125272649}
   basePath: Textures
+  island: Oahu
   dataController: {fileID: 1140502176}
   futureDataController: {fileID: 1897179731}
   scalesManager: {fileID: 1517231282}

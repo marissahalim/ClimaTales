@@ -15,7 +15,8 @@ public class LoadTable : MonoBehaviour
     [Header("Map Texture")]
     public RawImage mapTexture;
     public RawImage futureMapTexture;
-    [SerializeField] private string basePath = "Textures"; // Base path for your textures
+    [SerializeField] private string basePath = "Textures";
+    [SerializeField] private string island = "Oahu";
 
     [Header("Interactive Data Controller")]
     public HistDataController dataController;
@@ -129,12 +130,12 @@ public class LoadTable : MonoBehaviour
         if (timeType == "hist")
         {
             fileName = $"{year}_{month:D2}";
-            fullPath = $"{basePath}/{dataType}/{timeType}/{year}/{fileName}";
+            fullPath = $"{basePath}/{island}/{dataType}/{timeType}/{year}/{fileName}";
         }
         else if (timeType == "contemp")
         {
             fileName = $"{month:D2}";
-            fullPath = $"{basePath}/{dataType}/{timeType}/{fileName}";
+            fullPath = $"{basePath}/{island}/{dataType}/{timeType}/{fileName}";
         }
 
         Texture2D mt = Resources.Load<Texture2D>(fullPath);
@@ -175,11 +176,11 @@ public class LoadTable : MonoBehaviour
 
         if (time == "Present")
         {
-            fullPath = $"{basePath}/{dataType}/{ds}/{time}"; ;
+            fullPath = $"{basePath}/{island}/{dataType}/{ds}/{time}"; ;
         }
         else if (time == "End")
         {
-            fullPath = $"{basePath}/{dataType}/{ds}/{time}_{cont}_{sce}";
+            fullPath = $"{basePath}/{island}/{dataType}/{ds}/{time}_{cont}_{sce}";
         }
 
         Texture2D mt = Resources.Load<Texture2D>(fullPath);
