@@ -254,7 +254,7 @@ public class PrebuiltStory : MonoBehaviour
             );
 
             // Determine wait time: use audio clip length if available, otherwise use mapTransitionTimes
-            float waitTime = pageAudios[rightStoryIndex].length + audioBufferTime;;
+            float waitTime = pageAudios[rightStoryIndex].length + audioBufferTime; ;
             // if (pageAudios != null && rightStoryIndex < pageAudios.Length && pageAudios[rightStoryIndex] != null)
             // {
             //     waitTime = pageAudios[rightStoryIndex].length + audioBufferTime;
@@ -451,9 +451,12 @@ public class PrebuiltStory : MonoBehaviour
         rightStoryIndex = 0;
 
         // Stop and reset audio
-        audioSource.Stop();
-        audioSource.clip = null;
-        audioSource.time = 0;
+        audioSource?.Stop();
+        if (audioSource != null)
+        {
+            audioSource.clip = null;
+            audioSource.time = 0;
+        }
 
         // Clear labels
         leftStoryLabel.text = "";

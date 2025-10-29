@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Trial.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/AguDemo.unity
-    guid: a795ef0812f664b4cbaf50721ffc3904
+    path: Assets/Scenes/ChooseIsland.unity
+    guid: c40ec7e874ddb4c679531ff728998f35
+  - enabled: 1
+    path: Assets/Scenes/ClimaTales_Oct2025_Oahu.unity
+    guid: a3a6c87958c8a4f008d2653962c929e4
+  - enabled: 1
+    path: Assets/Scenes/ClimaTales_Oct2025_Maui.unity
+    guid: d6b50b4fdbdd947a8af9a0280edc4e26
   m_configObjects: {}
