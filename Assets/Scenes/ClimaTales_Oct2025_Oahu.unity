@@ -4109,7 +4109,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 01f3085c86db2464b9bd0ebe7b8b0caf, type: 3}
   - {fileID: 8300000, guid: 911697da628504f68a478eb720b47cce, type: 3}
   - {fileID: 8300000, guid: ff7ad0106c9df4c248c8117e68e5cfab, type: 3}
-  audioBufferTime: 1
+  audioBufferTime: 2
   playSprite: {fileID: 21300000, guid: 12f136f851d190748b87007168cb66e8, type: 3}
   pauseSprite: {fileID: 21300000, guid: 80694812942b91b42bc4aad99071ba7e, type: 3}
   playButtonImage: {fileID: 1160157672}

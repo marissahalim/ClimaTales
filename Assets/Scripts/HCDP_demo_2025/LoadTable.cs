@@ -142,7 +142,7 @@ public class LoadTable : MonoBehaviour
 
         // Debug.Log($"[Story Mode] Loading texture: {dataType}, {timeType}, {year}_{month:D2}, ENSO: {enso}");
 
-        if (mt != null)
+        if (mt != null && fullPath != "")
         {
             mapTexture.texture = mt;
             mapTexture.gameObject.SetActive(true);
@@ -165,6 +165,13 @@ public class LoadTable : MonoBehaviour
         }
         else
         {
+            mapTexture.gameObject.SetActive(false);
+            iconENSO.SetActive(false);
+            dataTypeLabel.text = "";
+            timeTypeLabel.text = "";
+            scenarioContentLabel.text = "";
+            downscaleLabel.text = "";
+            scalesManager.ResetScales();
             Debug.LogWarning($"Failed to load texture: {fullPath}");
         }
     }

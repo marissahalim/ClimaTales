@@ -176,6 +176,7 @@ public class PrebuiltStory : MonoBehaviour
         {
             if (leftStoryIndex >= leftMapYears.Length)
             {
+                // TODO wait for X seconds and if there are no interactions, restart the story
                 if (storyShouldLoop)
                     leftStoryIndex = 0;
                 else
@@ -203,14 +204,6 @@ public class PrebuiltStory : MonoBehaviour
 
             // Determine wait time: use audio clip length if available, otherwise use mapTransitionTimes
             float waitTime = pageAudios[leftStoryIndex].length + audioBufferTime;
-            // if (pageAudios != null && leftStoryIndex < pageAudios.Length && pageAudios[leftStoryIndex] != null)
-            // {
-            //     waitTime = pageAudios[leftStoryIndex].length + audioBufferTime;
-            // }
-            // else
-            // {
-            //     waitTime = myStory.mapTransitionTimes[leftStoryIndex];
-            // }
 
             storyProgressBar.isOn = true;
             double percentage = (double)leftStoryIndex / leftMapYears.Length * 100;
@@ -255,14 +248,6 @@ public class PrebuiltStory : MonoBehaviour
 
             // Determine wait time: use audio clip length if available, otherwise use mapTransitionTimes
             float waitTime = pageAudios[rightStoryIndex].length + audioBufferTime; ;
-            // if (pageAudios != null && rightStoryIndex < pageAudios.Length && pageAudios[rightStoryIndex] != null)
-            // {
-            //     waitTime = pageAudios[rightStoryIndex].length + audioBufferTime;
-            // }
-            // else
-            // {
-            //     waitTime = myStory.mapTransitionTimes[rightStoryIndex];
-            // }
 
             yield return new WaitForSeconds(waitTime);
             rightStoryIndex++;
@@ -424,12 +409,13 @@ public class PrebuiltStory : MonoBehaviour
         PauseStory();
         leftStoryIndex = 0;
         rightStoryIndex = 0;
+        
 
         currentAudioIndex = 0;
         audioSource.Stop();
         audioSource.time = 0;
 
-        PlayStory();
+        // PlayStory();
     }
 
     public void ResetStoryUI()
