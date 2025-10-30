@@ -73,8 +73,6 @@ public class PrebuiltStory : MonoBehaviour
     public AudioClip[] pageAudios;
     private AudioSource audioSource;
     private int currentAudioIndex = 0;
-    [Tooltip("Buffer time in seconds between audio clips")]
-    public float audioBufferTime = 2f;
 
     [Header("Play/Pause Sprites")]
     public Sprite playSprite;
@@ -86,7 +84,6 @@ public class PrebuiltStory : MonoBehaviour
     // Coroutines
     private Coroutine leftStoryCoroutine;
     private Coroutine rightStoryCoroutine;
-    private Coroutine audioCoroutine;
 
     public int leftStoryIndex = 0;
     public int rightStoryIndex = 0;
@@ -264,7 +261,6 @@ public class PrebuiltStory : MonoBehaviour
 
             yield return new WaitForSeconds(waitTime);
             rightStoryIndex++;
-
         }
     }
 
@@ -282,9 +278,6 @@ public class PrebuiltStory : MonoBehaviour
 
         leftStoryCoroutine = StartCoroutine(LoadLeftMapStory());
         rightStoryCoroutine = StartCoroutine(LoadRightMapStory());
-
-        // Play or resume audio
-        // PlayAudio();
 
         UpdatePlayButtonImage();
     }
@@ -310,16 +303,6 @@ public class PrebuiltStory : MonoBehaviour
             rightStoryCoroutine = null;
         }
 
-        // Stop audio coroutine
-        // if (audioCoroutine != null)
-        // {
-        //     StopCoroutine(audioCoroutine);
-        //     audioCoroutine = null;
-        // }
-
-        // Pause audio
-        // PauseAudio();
-
         UpdatePlayButtonImage();
     }
 
@@ -331,117 +314,12 @@ public class PrebuiltStory : MonoBehaviour
             PlayStory();
     }
 
-
-
     private void UpdatePlayButtonImage()
     {
         if (playButtonImage == null || playSprite == null || pauseSprite == null)
             return;
 
         playButtonImage.sprite = IsPlaying ? pauseSprite : playSprite;
-    }
-
-    /// <summary>
-    /// Audio controls
-    /// </summary>
-    private void PlayAudio()
-    {
-        if (pageAudios == null || pageAudios.Length == 0)
-        {
-            Debug.LogWarning("No audio clips assigned to pageAudios array!");
-            return;
-        }
-
-        // If audio is paused (clip exists and has played some amount), resume it
-        if (audioSource.clip != null && audioSource.time > 0 && !audioSource.isPlaying)
-        {
-            audioSource.UnPause();
-            // Restart the coroutine to continue after this clip finishes
-            if (audioCoroutine == null)
-            {
-                audioCoroutine = StartCoroutine(PlayAudioClip(myStory.mapTransitionTimes[leftStoryIndex]));
-            }
-        }
-        else
-        {
-            // Start the audio playback coroutine from current index
-            if (audioCoroutine == null)
-            {
-                audioCoroutine = StartCoroutine(PlayAudioClip(myStory.mapTransitionTimes[leftStoryIndex]));
-            }
-        }
-    }
-
-    private void PauseAudio()
-    {
-        if (audioSource.isPlaying)
-        {
-            audioSource.Pause();
-        }
-    }
-
-    // TODO function that has a timer that uses the myStory.mapTransitionTimes[leftStoryIndex]
-    // while the timer is less than the transition time, play the audio once. once it's done
-    // 
-
-    private IEnumerator PlayAudioClip(float duration)
-    {
-        while (IsPlaying)
-        {
-            // if (pageAudios[currentAudioIndex] != null && currentAudioIndex < pageAudios.Length)
-            // {
-            //     Debug.Log("Coroutine started at: " + Time.time);
-
-            //     // Set the audio source's clip to the correct clip
-            //     audioSource.clip = pageAudios[currentAudioIndex];
-            //     // Play the clip. Play() means it can be paused
-            //     audioSource.Play();
-
-            //     yield return new WaitForSeconds(duration);
-
-            //     Debug.Log("Coroutine finished after " + duration + " seconds at: " + Time.time);
-            // }
-            Debug.Log("Audio coroutine started at: " + Time.time);
-
-            // Set the audio source's clip to the correct clip
-            audioSource.clip = pageAudios[currentAudioIndex];
-            // Play the clip. Play() means it can be paused
-            audioSource.Play();
-
-            yield return new WaitForSeconds(duration);
-
-            Debug.Log("Audio coroutine finished after " + duration + " seconds at: " + Time.time);
-
-            currentAudioIndex++;
-
-        }
-    }
-
-    private IEnumerator AudioPlaybackCoroutine()
-    {
-        while (IsPlaying && currentAudioIndex < pageAudios.Length)
-        {
-            if (pageAudios[currentAudioIndex] != null)
-            {
-                audioSource.clip = pageAudios[currentAudioIndex];
-                audioSource.Play();
-
-                // Wait for the clip to finish
-                yield return new WaitWhile(() => audioSource.isPlaying);
-
-                // Wait for buffer time before next audio
-                yield return new WaitForSeconds(audioBufferTime);
-            }
-
-            // Only increment after audio and buffer time complete
-            currentAudioIndex++;
-
-            // Loop back if needed
-            // if (currentAudioIndex >= pageAudios.Length && storyShouldLoop)
-            // {
-            //     currentAudioIndex = 0;
-            // }
-        }
     }
 
     //TODO: Skip forward 1 desc
@@ -475,7 +353,6 @@ public class PrebuiltStory : MonoBehaviour
         rightStoryLabel.text = "";
     }
 
-    // 
     public void ResetStory()
     {
         // Stop any ongoing story playback
