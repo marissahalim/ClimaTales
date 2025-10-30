@@ -17,19 +17,19 @@
         "These examples show that ENSO’s influence on rainfall in Hawaiʻi might have become less predictable. Research from UH (O’Connor et al. 2015) found that La Niña winters are trending drier, challenging the traditional view of how ENSO affects the islands. This shift has important implications for resource managers, making continued study essential for both scientific understanding and practical planning."
         ],
     "mapTransitionTimes":[
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15,
-        15
+        28,
+        11,
+        9,
+        10,
+        8,
+        9,
+        9,
+        10,
+        10,
+        11,
+        8,
+        9,
+        25
     ],
     "leftMap": {
         "dataType": [

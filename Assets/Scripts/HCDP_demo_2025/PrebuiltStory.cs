@@ -180,7 +180,8 @@ public class PrebuiltStory : MonoBehaviour
                 if (storyShouldLoop)
                     leftStoryIndex = 0;
                 else
-                    yield break;
+                    ResetStory();
+                yield break;
             }
 
             string enso = ENSOHelper.GetENSOPhase(leftMapYears[leftStoryIndex], leftMapMonths[leftStoryIndex]);
@@ -203,16 +204,27 @@ public class PrebuiltStory : MonoBehaviour
             mapDescHolder.text = myStory.mapDesc[leftStoryIndex];
 
             // Determine wait time: use audio clip length if available, otherwise use mapTransitionTimes
-            float waitTime = pageAudios[leftStoryIndex].length + audioBufferTime;
+            float waitTime = myStory.mapTransitionTimes[leftStoryIndex];
+            // float waitTime = pageAudios[leftStoryIndex].length + audioBufferTime;
 
             storyProgressBar.isOn = true;
             double percentage = (double)leftStoryIndex / leftMapYears.Length * 100;
             storyProgressBar.SetValue((float)percentage);
             Debug.Log((float)percentage);
 
+            // play audio
+            Debug.Log("Audio coroutine started at: " + Time.time);
+            // Set the audio source's clip to the correct clip
+            audioSource.clip = pageAudios[currentAudioIndex];
+            // Play the clip. Play() means it can be paused
+            audioSource.Play();
+
             yield return new WaitForSeconds(waitTime);
 
+            Debug.Log("Audio coroutine finished after " + waitTime + " seconds at: " + Time.time);
+
             leftStoryIndex++;
+            currentAudioIndex++;
             // yield return new WaitForSeconds(myStory.leftMap.mapTransitionTimes[leftStoryIndex]);
         }
     }
@@ -247,14 +259,14 @@ public class PrebuiltStory : MonoBehaviour
             );
 
             // Determine wait time: use audio clip length if available, otherwise use mapTransitionTimes
-            float waitTime = pageAudios[rightStoryIndex].length + audioBufferTime; ;
+            // float waitTime = pageAudios[rightStoryIndex].length + audioBufferTime;
+            float waitTime = myStory.mapTransitionTimes[rightStoryIndex];
 
             yield return new WaitForSeconds(waitTime);
             rightStoryIndex++;
 
         }
     }
-
 
     public void PlayStory()
     {
@@ -272,7 +284,7 @@ public class PrebuiltStory : MonoBehaviour
         rightStoryCoroutine = StartCoroutine(LoadRightMapStory());
 
         // Play or resume audio
-        PlayAudio();
+        // PlayAudio();
 
         UpdatePlayButtonImage();
     }
@@ -299,14 +311,14 @@ public class PrebuiltStory : MonoBehaviour
         }
 
         // Stop audio coroutine
-        if (audioCoroutine != null)
-        {
-            StopCoroutine(audioCoroutine);
-            audioCoroutine = null;
-        }
+        // if (audioCoroutine != null)
+        // {
+        //     StopCoroutine(audioCoroutine);
+        //     audioCoroutine = null;
+        // }
 
         // Pause audio
-        PauseAudio();
+        // PauseAudio();
 
         UpdatePlayButtonImage();
     }
@@ -347,7 +359,7 @@ public class PrebuiltStory : MonoBehaviour
             // Restart the coroutine to continue after this clip finishes
             if (audioCoroutine == null)
             {
-                audioCoroutine = StartCoroutine(AudioPlaybackCoroutine());
+                audioCoroutine = StartCoroutine(PlayAudioClip(myStory.mapTransitionTimes[leftStoryIndex]));
             }
         }
         else
@@ -355,7 +367,7 @@ public class PrebuiltStory : MonoBehaviour
             // Start the audio playback coroutine from current index
             if (audioCoroutine == null)
             {
-                audioCoroutine = StartCoroutine(AudioPlaybackCoroutine());
+                audioCoroutine = StartCoroutine(PlayAudioClip(myStory.mapTransitionTimes[leftStoryIndex]));
             }
         }
     }
@@ -365,6 +377,43 @@ public class PrebuiltStory : MonoBehaviour
         if (audioSource.isPlaying)
         {
             audioSource.Pause();
+        }
+    }
+
+    // TODO function that has a timer that uses the myStory.mapTransitionTimes[leftStoryIndex]
+    // while the timer is less than the transition time, play the audio once. once it's done
+    // 
+
+    private IEnumerator PlayAudioClip(float duration)
+    {
+        while (IsPlaying)
+        {
+            // if (pageAudios[currentAudioIndex] != null && currentAudioIndex < pageAudios.Length)
+            // {
+            //     Debug.Log("Coroutine started at: " + Time.time);
+
+            //     // Set the audio source's clip to the correct clip
+            //     audioSource.clip = pageAudios[currentAudioIndex];
+            //     // Play the clip. Play() means it can be paused
+            //     audioSource.Play();
+
+            //     yield return new WaitForSeconds(duration);
+
+            //     Debug.Log("Coroutine finished after " + duration + " seconds at: " + Time.time);
+            // }
+            Debug.Log("Audio coroutine started at: " + Time.time);
+
+            // Set the audio source's clip to the correct clip
+            audioSource.clip = pageAudios[currentAudioIndex];
+            // Play the clip. Play() means it can be paused
+            audioSource.Play();
+
+            yield return new WaitForSeconds(duration);
+
+            Debug.Log("Audio coroutine finished after " + duration + " seconds at: " + Time.time);
+
+            currentAudioIndex++;
+
         }
     }
 
@@ -409,7 +458,7 @@ public class PrebuiltStory : MonoBehaviour
         PauseStory();
         leftStoryIndex = 0;
         rightStoryIndex = 0;
-        
+
 
         currentAudioIndex = 0;
         audioSource.Stop();
