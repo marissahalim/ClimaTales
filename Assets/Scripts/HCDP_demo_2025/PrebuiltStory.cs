@@ -209,16 +209,11 @@ public class PrebuiltStory : MonoBehaviour
             storyProgressBar.SetValue((float)percentage);
             Debug.Log((float)percentage);
 
-            // play audio
-            Debug.Log("Audio coroutine started at: " + Time.time);
-            // Set the audio source's clip to the correct clip
-            audioSource.clip = pageAudios[currentAudioIndex];
-            // Play the clip. Play() means it can be paused
-            audioSource.Play();
+            PlayAudio();
 
             yield return new WaitForSeconds(waitTime);
 
-            Debug.Log("Audio coroutine finished after " + waitTime + " seconds at: " + Time.time);
+            Debug.Log("Coroutine finished after " + waitTime + " seconds at: " + Time.time);
 
             leftStoryIndex++;
             currentAudioIndex++;
@@ -304,6 +299,13 @@ public class PrebuiltStory : MonoBehaviour
         }
 
         UpdatePlayButtonImage();
+    }
+
+    private void PlayAudio()
+    {
+        Debug.Log("Audio coroutine started at: " + Time.time);
+        audioSource.clip = pageAudios[currentAudioIndex];
+        audioSource.Play();
     }
 
     public void ToggleStoryPlayback()

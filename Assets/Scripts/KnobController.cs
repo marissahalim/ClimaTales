@@ -75,7 +75,7 @@ public class KnobController : MonoBehaviour, IPointerDownHandler, IPointerUpHand
     {
         knobColor = c;
         sliderImage.color = c;
-        indicatorPivot.GetChild(0).gameObject.GetComponent<Image>().color = c;
+        // indicatorPivot.GetChild(0).gameObject.GetComponent<Image>().color = c;
     }
 
 
