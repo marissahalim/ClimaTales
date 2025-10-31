@@ -213,10 +213,10 @@ public class PrebuiltStory : MonoBehaviour
 
             yield return new WaitForSeconds(waitTime);
 
-            Debug.Log("Coroutine finished after " + waitTime + " seconds at: " + Time.time);
+            // Debug.Log("Coroutine finished after " + waitTime + " seconds at: " + Time.time);
 
             leftStoryIndex++;
-            currentAudioIndex++;
+            // currentAudioIndex++;
             // yield return new WaitForSeconds(myStory.leftMap.mapTransitionTimes[leftStoryIndex]);
         }
     }
@@ -234,7 +234,6 @@ public class PrebuiltStory : MonoBehaviour
             }
 
             string enso = ENSOHelper.GetENSOPhase(rightMapYears[rightStoryIndex], rightMapMonths[rightStoryIndex]);
-
 
             rightData.SetStoryDataType(myStory.rightMap.dataType[rightStoryIndex]);
             rightTime.SetToggle(myStory.rightMap.timeType[rightStoryIndex]);
@@ -255,6 +254,7 @@ public class PrebuiltStory : MonoBehaviour
             float waitTime = myStory.mapTransitionTimes[rightStoryIndex];
 
             yield return new WaitForSeconds(waitTime);
+
             rightStoryIndex++;
         }
     }
@@ -270,6 +270,8 @@ public class PrebuiltStory : MonoBehaviour
 
         leftMapLoader?.SetStoryMode(true);
         rightMapLoader?.SetStoryMode(true);
+
+        Debug.Log("Coroutine started at: " + Time.time);
 
         leftStoryCoroutine = StartCoroutine(LoadLeftMapStory());
         rightStoryCoroutine = StartCoroutine(LoadRightMapStory());
@@ -298,13 +300,17 @@ public class PrebuiltStory : MonoBehaviour
             rightStoryCoroutine = null;
         }
 
+        audioSource.Pause();
+
+        Debug.Log("Coroutine paused at: " + Time.time);
+
         UpdatePlayButtonImage();
     }
 
     private void PlayAudio()
     {
-        Debug.Log("Audio coroutine started at: " + Time.time);
-        audioSource.clip = pageAudios[currentAudioIndex];
+        // Debug.Log("Audio coroutine started at: " + Time.time);
+        audioSource.clip = pageAudios[leftStoryIndex];
         audioSource.Play();
     }
 
@@ -316,6 +322,42 @@ public class PrebuiltStory : MonoBehaviour
             PlayStory();
     }
 
+    //TODO: Skip forward 1 desc
+    public void SkipForwardOne()
+    {
+        if (leftStoryIndex < leftMapYears.Length - 1)
+        {
+            PauseStory();
+
+            leftStoryIndex++;
+            // currentAudioIndex++;
+            rightStoryIndex++;
+
+            PlayStory();
+        }
+    }
+
+    //TODO: Go backwards 1 desc
+    public void GoBackwardOne()
+    {
+        if (leftStoryIndex > 1)
+        {
+            PauseStory();
+
+            leftStoryIndex--;
+            // currentAudioIndex--;
+            rightStoryIndex--;
+
+            PlayStory();
+        }
+        else
+        {
+            leftStoryIndex = 0;
+            currentAudioIndex = 0;
+            rightStoryIndex = 0;
+        }
+    }
+
     private void UpdatePlayButtonImage()
     {
         if (playButtonImage == null || playSprite == null || pauseSprite == null)
@@ -323,9 +365,6 @@ public class PrebuiltStory : MonoBehaviour
 
         playButtonImage.sprite = IsPlaying ? pauseSprite : playSprite;
     }
-
-    //TODO: Skip forward 1 desc
-    //TODO: Go backwards 1 desc
 
     public void OnStorySelected()
     {
@@ -347,13 +386,7 @@ public class PrebuiltStory : MonoBehaviour
         // PlayStory();
     }
 
-    public void ResetStoryUI()
-    {
-        leftStoryIndex = 0;
-        rightStoryIndex = 0;
-        leftStoryLabel.text = "";
-        rightStoryLabel.text = "";
-    }
+
 
     public void ResetStory()
     {

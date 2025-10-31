@@ -44,18 +44,6 @@ public class HistDataController : MonoBehaviour
         histDataType = dataTypeSelector.selectedMode;
 
         // Time Type
-        // monthly.onValueChanged.AddListener((isOn) =>
-        //         {
-        //             if (isOn) OnToggleSelected(monthly);
-        //         });
-        // monthlyAvg.onValueChanged.AddListener((isOn) =>
-        //         {
-        //             if (isOn) OnToggleSelected(monthlyAvg);
-        //         });
-        // monthlyAnomaly.onValueChanged.AddListener((isOn) =>
-        //         {
-        //             if (isOn) OnToggleSelected(monthlyAnomaly);
-        //         });
         histTimeType = "hist";
 
         // Sliders

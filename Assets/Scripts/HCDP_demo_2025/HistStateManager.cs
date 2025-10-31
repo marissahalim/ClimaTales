@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.EditorTools;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -16,7 +17,8 @@ public class HistStateManager : MonoBehaviour
 
     public HistState currentState = HistState.Interactive;
 
-    public float idleTimeThreshold = 60f; // Time in seconds
+    [Tooltip("How long (in seconds) to wait to switch from Interactive mode to Storytelling mode after no interaction")]
+    public float idleTimeThreshold = 60f;
     private float idleTimer = 0f;
 
     private bool hasSelectedStory = false;
@@ -54,19 +56,15 @@ public class HistStateManager : MonoBehaviour
         {
             if (IsUserInteractingWithListedUI())
             {
-                // Debug.Log($"[IdleTimer] Interaction detected → Reset to 0");
                 idleTimer = 0f;
             }
             else
             {
                 idleTimer += Time.deltaTime;
-                // Debug.Log($"[IdleTimer] No interaction → Incremented to {idleTimer:F2}");
             }
 
             if (idleTimer >= idleTimeThreshold && (hasSelectedStory || defaultStory != null))
             {
-                // Debug.Log("Idle threshold reached — switching to Storytelling");
-
                 if (!hasSelectedStory && defaultStory != null)
                 {
                     selectedStory = defaultStory;
@@ -80,7 +78,6 @@ public class HistStateManager : MonoBehaviour
         {
             if (IsUserInteractingWithListedUI())
             {
-                // Debug.Log("[State] User interacted during storytelling → returning to Interactive");
                 OnAnyInteraction(); // Return to Interactive mode
             }
         }
@@ -119,9 +116,6 @@ public class HistStateManager : MonoBehaviour
 
         selectedStory.leftMapLoader?.SetStoryMode(false);
         selectedStory.rightMapLoader?.SetStoryMode(false);
-
-        // selectedStory.RestartStory();
-        // selectedStory.ResetStory();
     }
 
     public void HandleStorySelection(PrebuiltStory story)
@@ -164,10 +158,6 @@ public class HistStateManager : MonoBehaviour
         {
             currentState = HistState.Storytelling;
             Debug.Log("State changed to Storytelling (idle or button)");
-
-            // // ✅ Reset UI when entering Interactive
-            // leftInteractiveUI?.ResetUI();
-            // rightInteractiveUI?.ResetUI();
         }
 
         if (selectedStory != null)
