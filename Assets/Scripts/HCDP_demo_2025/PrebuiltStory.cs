@@ -371,6 +371,7 @@ public class PrebuiltStory : MonoBehaviour
             audioSource.clip = null;
             audioSource.time = 0;
         }
+        currentAudioIndex = 0;
 
         // Clear labels
         leftStoryLabel.text = "";

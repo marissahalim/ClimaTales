@@ -44,18 +44,19 @@ public class HistDataController : MonoBehaviour
         histDataType = dataTypeSelector.selectedMode;
 
         // Time Type
-        monthly.onValueChanged.AddListener((isOn) =>
-                {
-                    if (isOn) OnToggleSelected(monthly);
-                });
-        monthlyAvg.onValueChanged.AddListener((isOn) =>
-                {
-                    if (isOn) OnToggleSelected(monthlyAvg);
-                });
-        monthlyAnomaly.onValueChanged.AddListener((isOn) =>
-                {
-                    if (isOn) OnToggleSelected(monthlyAnomaly);
-                });
+        // monthly.onValueChanged.AddListener((isOn) =>
+        //         {
+        //             if (isOn) OnToggleSelected(monthly);
+        //         });
+        // monthlyAvg.onValueChanged.AddListener((isOn) =>
+        //         {
+        //             if (isOn) OnToggleSelected(monthlyAvg);
+        //         });
+        // monthlyAnomaly.onValueChanged.AddListener((isOn) =>
+        //         {
+        //             if (isOn) OnToggleSelected(monthlyAnomaly);
+        //         });
+        histTimeType = "hist";
 
         // Sliders
         month = (int)months.currentValue + 1;
@@ -108,7 +109,7 @@ public class HistDataController : MonoBehaviour
         ENSO = ENSOHelper.GetENSOPhase(year, month);
     }
 
-    void OnToggleSelected(Toggle selected)
+    public void OnToggleSelected(Toggle selected)
     {
         if (selected != monthly) monthly.isOn = false;
         if (selected != monthlyAvg) monthlyAvg.isOn = false;
@@ -155,12 +156,12 @@ public class HistDataController : MonoBehaviour
         dataTypeSelector.SetStoryDataType("No Data");
         dataTypeSelector.scaleIndex = -1;
         // time type
-        monthly.isOn = false;
+        monthly.isOn = true;
         monthlyAvg.isOn = false;
         years.SetActive(true);
         months.transform.localScale = originalMonthScale;
         months.transform.localPosition = originalMonthPosition;
-        histTimeType = "";
+        histTimeType = "hist";
         // knobs
         years.SetValue(years.minValue);
         months.SetValue(months.minValue);
