@@ -36,7 +36,6 @@ public class PrebuiltStory : MonoBehaviour
     [Header("Story Data")]
     public TextAsset storyJSON;
     public Story myStory;
-    public bool storyShouldLoop = false;
 
     public bool IsPlaying { get; private set; } = false;
 
@@ -72,7 +71,6 @@ public class PrebuiltStory : MonoBehaviour
     [Header("Audio")]
     public AudioClip[] pageAudios;
     private AudioSource audioSource;
-    private int currentAudioIndex = 0;
 
     [Header("Play/Pause Sprites")]
     public Sprite playSprite;
@@ -173,11 +171,7 @@ public class PrebuiltStory : MonoBehaviour
         {
             if (leftStoryIndex >= leftMapYears.Length)
             {
-                // TODO wait for X seconds and if there are no interactions, restart the story
-                if (storyShouldLoop)
-                    leftStoryIndex = 0;
-                else
-                    ResetStory();
+                ResetStory();
                 yield break;
             }
 
@@ -227,10 +221,8 @@ public class PrebuiltStory : MonoBehaviour
         {
             if (rightStoryIndex >= rightMapYears.Length)
             {
-                if (storyShouldLoop)
-                    rightStoryIndex = 0;
-                else
-                    yield break;
+                rightStoryIndex = 0;
+                yield break;
             }
 
             string enso = ENSOHelper.GetENSOPhase(rightMapYears[rightStoryIndex], rightMapMonths[rightStoryIndex]);
@@ -340,21 +332,25 @@ public class PrebuiltStory : MonoBehaviour
     //TODO: Go backwards 1 desc
     public void GoBackwardOne()
     {
-        if (leftStoryIndex > 1)
+        if (leftStoryIndex > 0)
         {
             PauseStory();
 
             leftStoryIndex--;
-            // currentAudioIndex--;
             rightStoryIndex--;
 
             PlayStory();
         }
-        else
+        else if (leftStoryIndex == 0)
         {
+            PauseStory();
+
+            audioSource.clip = null;
+
             leftStoryIndex = 0;
-            currentAudioIndex = 0;
             rightStoryIndex = 0;
+
+            PlayStory();
         }
     }
 
@@ -370,22 +366,6 @@ public class PrebuiltStory : MonoBehaviour
     {
         HistStateManager.Instance.HandleStorySelection(this);
     }
-
-    // Not being used anymore because we don't want to loop stories
-    public void RestartStory()
-    {
-        PauseStory();
-        leftStoryIndex = 0;
-        rightStoryIndex = 0;
-
-
-        currentAudioIndex = 0;
-        audioSource.Stop();
-        audioSource.time = 0;
-
-        // PlayStory();
-    }
-
 
 
     public void ResetStory()
@@ -404,7 +384,6 @@ public class PrebuiltStory : MonoBehaviour
             audioSource.clip = null;
             audioSource.time = 0;
         }
-        currentAudioIndex = 0;
 
         // Clear labels
         leftStoryLabel.text = "";
