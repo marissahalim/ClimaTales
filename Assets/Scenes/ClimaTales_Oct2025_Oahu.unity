@@ -11699,7 +11699,7 @@ MonoBehaviour:
   storyTitle: {fileID: 806661600}
   storyDesc: {fileID: 1091370413}
   mapDescHolder: {fileID: 1475003415}
-  mapDescBG: {fileID: 0}
+  mapDescBG: {fileID: 1475003413}
   leftStoryLabel: {fileID: 1982188524}
   rightStoryLabel: {fileID: 1596233922}
   playStoryButton: {fileID: 1476268565}
@@ -19993,6 +19993,8 @@ MonoBehaviour:
   defaultStory: {fileID: 134271104}
   uiWhitelist:
   - {fileID: 1160157669}
+  - {fileID: 1882610216}
+  - {fileID: 596476868}
   - {fileID: 1476268563}
   interactiveElements:
   - {fileID: 480821664}
