@@ -13,6 +13,7 @@ public class HistDataController : MonoBehaviour
 
     [Header("UI elements")]
     public HistDataTypeSelector dataTypeSelector;
+    public HistTimeTypeSelector timeTypeSelector;
     public KnobController years;
     public KnobController months;
     public Toggle monthly;
@@ -43,9 +44,6 @@ public class HistDataController : MonoBehaviour
         // Data type
         histDataType = dataTypeSelector.selectedMode;
 
-        // Time Type
-        histTimeType = "hist";
-
         // Sliders
         month = (int)months.currentValue + 1;
         originalMonthScale = months.transform.localScale;
@@ -57,6 +55,9 @@ public class HistDataController : MonoBehaviour
     void Update()
     {
         histDataType = dataTypeSelector.selectedMode;
+        // histTimeType = timeTypeSelector.selectedTimeType;
+
+        SetTimeType(timeTypeSelector.selectedTimeType);
     }
 
     public void SetMonth()
@@ -97,44 +98,27 @@ public class HistDataController : MonoBehaviour
         ENSO = ENSOHelper.GetENSOPhase(year, month);
     }
 
-    public void OnToggleSelected(Toggle selected)
+    public void SetTimeType(string timeType)
     {
-        if (selected != monthly) monthly.isOn = false;
-        if (selected != monthlyAvg) monthlyAvg.isOn = false;
-        if (selected != monthlyAnomaly) monthlyAnomaly.isOn = false;
+        histTimeType = timeType;
 
-        if (selected == monthly)
-        {
-            years.SetActive(true);
-            months.transform.localScale = originalMonthScale;
-            months.transform.localPosition = originalMonthPosition;
-            histTimeType = "hist";
-        }
-        else if (selected == monthlyAvg)
-        {
-            years.SetActive(false);
-            months.transform.localScale = originalMonthScale * 1.5f;
-            months.transform.localPosition = originalMonthPosition + new Vector3(0.0f, 70f, 0.0f);
-            histTimeType = "contemp";
-        }
-        else if (selected == monthlyAnomaly)
-        {
-            years.SetActive(true);
-            months.transform.localScale = originalMonthScale;
-            months.transform.localPosition = originalMonthPosition;
-            histTimeType = "monthlyAnomaly";
-        }
-    }
-
-    public void SetToggle(string time)
-    {
-        if (time == "hist")
+        if (histTimeType == "hist")
         {
             monthly.isOn = true;
+            monthlyAvg.isOn = false;
+            years.SetActive(true);
+            months.SetActive(true);
+            months.transform.localScale = originalMonthScale;
+            months.transform.localPosition = originalMonthPosition;
         }
-        else if (time == "contemp")
+        else if (histTimeType == "contemp")
         {
             monthlyAvg.isOn = true;
+            monthly.isOn = false;
+            years.SetActive(false);
+            months.SetActive(true);
+            months.transform.localScale = originalMonthScale * 1.5f;
+            months.transform.localPosition = originalMonthPosition + new Vector3(0.0f, 70f, 0.0f);
         }
     }
 
@@ -144,13 +128,11 @@ public class HistDataController : MonoBehaviour
         dataTypeSelector.SetStoryDataType("No Data");
         dataTypeSelector.scaleIndex = -1;
         // time type
-        monthly.isOn = true;
-        monthlyAvg.isOn = false;
+        SetTimeType("hist");
+        // knobs
         years.SetActive(true);
         months.transform.localScale = originalMonthScale;
         months.transform.localPosition = originalMonthPosition;
-        histTimeType = "hist";
-        // knobs
         years.SetValue(years.minValue);
         months.SetValue(months.minValue);
         // ENSO

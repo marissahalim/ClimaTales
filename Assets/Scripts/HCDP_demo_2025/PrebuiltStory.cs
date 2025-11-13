@@ -38,6 +38,7 @@ public class PrebuiltStory : MonoBehaviour
     public Story myStory;
 
     public bool IsPlaying { get; private set; } = false;
+    public bool storyDonePlaying;
 
     // Parsed date data
     public int[] leftMapYears;
@@ -62,6 +63,7 @@ public class PrebuiltStory : MonoBehaviour
     public TMP_Text storyDesc;
 
     public TMP_Text mapDescHolder;
+    public GameObject mapDescBG;
 
     [Header("Table Elements")]
     public TMP_Text leftStoryLabel;
@@ -102,8 +104,8 @@ public class PrebuiltStory : MonoBehaviour
 
         storyProgressBar.isOn = false;
 
-        // mapDescHolder.text = myStory.mapDesc[0];
-
+        mapDescHolder.text = "";
+        mapDescBG.SetActive(false);
     }
 
     private void LoadStoryData()
@@ -167,6 +169,9 @@ public class PrebuiltStory : MonoBehaviour
 
     private IEnumerator LoadLeftMapStory()
     {
+        mapDescBG.SetActive(true);
+        storyDonePlaying = false;
+
         while (IsPlaying)
         {
             if (leftStoryIndex >= leftMapYears.Length)
@@ -178,7 +183,8 @@ public class PrebuiltStory : MonoBehaviour
             string enso = ENSOHelper.GetENSOPhase(leftMapYears[leftStoryIndex], leftMapMonths[leftStoryIndex]);
 
             leftData.SetStoryDataType(myStory.leftMap.dataType[leftStoryIndex]);
-            leftTime.SetToggle(myStory.leftMap.timeType[leftStoryIndex]);
+
+            leftTime.SetTimeType(myStory.leftMap.timeType[leftStoryIndex]);
 
             leftYears.SetValue(leftMapYears[leftStoryIndex]);
             leftMonths.SetValue(leftMapMonths[leftStoryIndex] - 1);
@@ -228,7 +234,9 @@ public class PrebuiltStory : MonoBehaviour
             string enso = ENSOHelper.GetENSOPhase(rightMapYears[rightStoryIndex], rightMapMonths[rightStoryIndex]);
 
             rightData.SetStoryDataType(myStory.rightMap.dataType[rightStoryIndex]);
-            rightTime.SetToggle(myStory.rightMap.timeType[rightStoryIndex]);
+
+            rightTime.SetTimeType(myStory.rightMap.timeType[rightStoryIndex]);
+
             rightYears.SetValue(rightMapYears[rightStoryIndex]);
             rightMonths.SetValue(rightMapMonths[rightStoryIndex] - 1);
             rightStoryLabel.text = myStory.rightMap.mapLabels[rightStoryIndex];
@@ -373,6 +381,8 @@ public class PrebuiltStory : MonoBehaviour
         // Stop any ongoing story playback
         PauseStory();
 
+        storyDonePlaying = true;
+
         // Reset indices
         leftStoryIndex = 0;
         rightStoryIndex = 0;
@@ -390,6 +400,7 @@ public class PrebuiltStory : MonoBehaviour
         rightStoryLabel.text = "";
 
         mapDescHolder.text = "";
+        mapDescBG.SetActive(false);
 
         // Clear map visuals and turn off story mode
         leftMapLoader?.ResetLabelsAndMap();

@@ -48,6 +48,7 @@ public class HistStateManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 
     void Update()
@@ -76,10 +77,11 @@ public class HistStateManager : MonoBehaviour
         }
         else if (currentState == HistState.Storytelling)
         {
-            if (IsUserInteractingWithListedUI())
+            if (IsUserInteractingWithListedUI() || selectedStory.storyDonePlaying)
             {
                 OnAnyInteraction(); // Return to Interactive mode
             }
+
         }
     }
 
@@ -96,7 +98,7 @@ public class HistStateManager : MonoBehaviour
 
     private void EnterInteractiveState()
     {
-        Debug.Log("[StateManager] Entering Interactive state");
+        // Debug.Log("[StateManager] Entering Interactive state");
         currentState = HistState.Interactive;
         idleTimer = 0f;
 
@@ -120,7 +122,9 @@ public class HistStateManager : MonoBehaviour
 
     public void HandleStorySelection(PrebuiltStory story)
     {
-        Debug.Log("Story selected via button: " + story.name);
+        Debug.Log(story.storyDonePlaying);
+
+        // Debug.Log("Story selected via button: " + story.name);
         idleTimer = 0f;
 
         // If the same story is already selected and we're in Storytelling, toggle it
