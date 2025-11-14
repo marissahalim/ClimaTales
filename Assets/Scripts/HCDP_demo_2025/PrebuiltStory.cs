@@ -169,6 +169,7 @@ public class PrebuiltStory : MonoBehaviour
 
     private IEnumerator LoadLeftMapStory()
     {
+        mapDescHolder.gameObject.SetActive(true);
         mapDescBG.SetActive(true);
         storyDonePlaying = false;
 
@@ -207,7 +208,7 @@ public class PrebuiltStory : MonoBehaviour
             storyProgressBar.isOn = true;
             double percentage = (double)leftStoryIndex / leftMapYears.Length * 100;
             storyProgressBar.SetValue((float)percentage);
-            Debug.Log((float)percentage);
+            // Debug.Log((float)percentage);
 
             PlayAudio();
 

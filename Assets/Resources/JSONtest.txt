@@ -2,7 +2,7 @@
     "name": "El Nino vs La Nina Winter Rainfall",
     "description": "In Hawaiʻi, El Niño and La Niña have significant impacts on seasonal rainfall, temperature, and wind. El Niño weakens the trade winds, warms the ocean, and increases drought risk, while La Niña generally brings the opposite. Recognizing these patterns helps communities prepare in advance—for example, farmers and ranchers can plan for drought by storing water, reserving supplies, or adjusting their herds.",
     "mapDesc": [
-        "El Niño–Southern Oscillation (ENSO) is an important climate phenomena on Earth that can change the global atmospheric circulation which affects temperature and precipitation across the globe. There are 3 phases in ENSO, El Niño, La Niña, and a neutral phase.",
+        "El Niño–Southern Oscillation (also known as ENSO) is an important climate phenomena on Earth that can change the global atmospheric circulation which affects temperature and precipitation across the globe. There are 3 phases in ENSO, El Niño, La Niña, and a neutral phase.",
         "In Hawaiʻi, El Niño and La Niña have significant impacts on seasonal rainfall, temperature, and wind. El Niño weakens the trade winds, warms the ocean, and increases drought risk, while La Niña generally brings the opposite. Recognizing these patterns helps communities prepare in advance—for example, farmers and ranchers can plan for drought by storing water, reserving supplies, or adjusting their herds.",
         "January 1998 shows the peak of a strong El Niño, with rainfall much lower than the climatological January average.",
         "In contrast, January 1999 saw much wetter conditions than normal due to a strong La Niña.",
