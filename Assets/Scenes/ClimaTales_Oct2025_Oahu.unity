@@ -20084,7 +20084,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  idleTimeThreshold: 10
+  idleTimeThreshold: 25
   leftInteractiveUI: {fileID: 300890695}
   rightInteractiveUI: {fileID: 1140502176}
   defaultStory: {fileID: 134271104}
