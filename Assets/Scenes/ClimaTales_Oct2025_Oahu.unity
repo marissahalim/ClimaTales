@@ -844,6 +844,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1930916506696676, guid: 564de7c2d2a810042a83a7dc2df23971, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 55906477765664261, guid: 564de7c2d2a810042a83a7dc2df23971,
         type: 3}
       propertyPath: m_text
@@ -20580,12 +20584,12 @@ MonoBehaviour:
   idleTimeThreshold: 50
   leftInteractiveUI: {fileID: 300890695}
   rightInteractiveUI: {fileID: 1140502176}
+  storyManager: {fileID: 1158488758}
   defaultStory: {fileID: 134271104}
   uiWhitelist:
   - {fileID: 1160157669}
   - {fileID: 1882610216}
   - {fileID: 596476868}
-  - {fileID: 0}
   interactiveElements:
   - {fileID: 480821664}
   - {fileID: 1736072482}
@@ -25388,19 +25392,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1158488756}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 145246edc9e0041a3a8564893c50204d, type: 3}
+  m_Script: {fileID: 11500000, guid: aec99d70db929436a92da81fb1a4d859, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  histStateManager: {fileID: 970398783}
+  stateManager: {fileID: 970398783}
   prebuiltStories:
   - {fileID: 134271104}
   - {fileID: 344763514}
   storyButtons: []
+  storyListUI: {fileID: 939648356}
+  gridContent: {fileID: 1495734866}
   storyButtonPrefab: {fileID: 7431119950887104574, guid: 96c441201f4ed4a92b826aa3765a350f,
     type: 3}
-  storyList: {fileID: 939648356}
-  gridContent: {fileID: 1495734865}
   backButton: {fileID: 1918861415}
+  playButton: {fileID: 1160157669}
+  progressBar: {fileID: 779798105}
+  currentStory: {fileID: 0}
+  currentStoryIndex: 0
 --- !u!1 &1158522236
 GameObject:
   m_ObjectHideFlags: 0
@@ -25523,8 +25531,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryCtrler, Assembly-CSharp
+      - m_Target: {fileID: 1158488758}
+        m_TargetAssemblyTypeName: PrebuiltStoryManager, Assembly-CSharp
         m_MethodName: PlayCurrentStory
         m_Mode: 1
         m_Arguments:
@@ -42312,9 +42320,9 @@ MonoBehaviour:
   onClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: StoryCtrler, Assembly-CSharp
-        m_MethodName: BackToStoryList
+      - m_Target: {fileID: 1158488758}
+        m_TargetAssemblyTypeName: PrebuiltStoryManager, Assembly-CSharp
+        m_MethodName: BackButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
