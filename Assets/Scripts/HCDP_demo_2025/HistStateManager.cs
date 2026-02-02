@@ -27,6 +27,7 @@ public class HistStateManager : MonoBehaviour
     public HistDataController leftInteractiveUI;
     public HistDataController rightInteractiveUI;
 
+    public PrebuiltStoryManager storyManager;
     private PrebuiltStory selectedStory;
 
     [Header("Default story to auto-play after idle")]
@@ -49,6 +50,14 @@ public class HistStateManager : MonoBehaviour
             Destroy(gameObject);
         }
 
+    }
+
+    void Start()
+    {
+        foreach(GameObject storyBtn in storyManager.storyButtons)
+        {
+            uiWhitelist.Add(storyBtn);
+        }
     }
 
     void Update()

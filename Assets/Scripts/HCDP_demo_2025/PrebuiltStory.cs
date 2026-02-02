@@ -88,7 +88,7 @@ public class PrebuiltStory : MonoBehaviour
     public int leftStoryIndex = 0;
     public int rightStoryIndex = 0;
 
-    private void Start()
+    private void Awake()
     {
         // Get or add AudioSource component
         audioSource = GetComponent<AudioSource>();
@@ -145,7 +145,7 @@ public class PrebuiltStory : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning($"Invalid leftMap path format: {myStory.leftMap.mapPaths[i]}");
+                // Debug.LogWarning($"Invalid leftMap path format: {myStory.leftMap.mapPaths[i]}");
             }
         }
 
@@ -162,7 +162,7 @@ public class PrebuiltStory : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning($"Invalid rightMap path format: {myStory.rightMap.mapPaths[i]}");
+                // Debug.LogWarning($"Invalid rightMap path format: {myStory.rightMap.mapPaths[i]}");
             }
         }
     }

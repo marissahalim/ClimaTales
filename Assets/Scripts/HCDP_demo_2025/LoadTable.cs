@@ -172,7 +172,7 @@ public class LoadTable : MonoBehaviour
             scenarioContentLabel.text = "";
             downscaleLabel.text = "";
             scalesManager.ResetScales();
-            Debug.LogWarning($"Failed to load texture: {fullPath}");
+            // Debug.LogWarning($"Failed to load texture: {fullPath}");
         }
     }
 
