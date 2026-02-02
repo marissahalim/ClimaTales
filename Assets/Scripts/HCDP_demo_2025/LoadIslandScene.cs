@@ -34,4 +34,10 @@ public class LoadIslandScene : MonoBehaviour
         islandName = "Maui";
     }
 
+    void Update(){
+        if(Input.GetKeyDown("escape")) {
+            Application.Quit();
+        }
+    }
+
 }

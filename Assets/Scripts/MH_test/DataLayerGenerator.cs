@@ -18,12 +18,12 @@ public class DataLayerGenerator : MonoBehaviour
 
     private string layerName;
 
-    [MenuItem("AssetDatabase/LoadAssetExample")]
-    static Texture2D ImportExample()
-    {
-        Texture2D t = (Texture2D)AssetDatabase.LoadAssetAtPath("Assets/Resources/Textures/Test/temperature_mean_month_oa_data_map_1990_01.png", typeof(Texture2D));
-        return t;
-    }
+    // [MenuItem("AssetDatabase/LoadAssetExample")]
+    // static Texture2D ImportExample()
+    // {
+    //     Texture2D t = (Texture2D)AssetDatabase.LoadAssetAtPath("Assets/Resources/Textures/Test/temperature_mean_month_oa_data_map_1990_01.png", typeof(Texture2D));
+    //     return t;
+    // }
 
     private void Awake()
     {
