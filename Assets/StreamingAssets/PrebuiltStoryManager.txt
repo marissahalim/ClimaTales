@@ -1,0 +1,11 @@
+{
+    "storyPaths": [
+        "JSONtest.txt",
+        "JSONtest-Reversed.txt"
+    ],
+    "audioPaths": [
+        "ENSOAudio",
+        "ReversedENSOAudio"
+    ],
+    "defaultStoryIndex": 0
+}
