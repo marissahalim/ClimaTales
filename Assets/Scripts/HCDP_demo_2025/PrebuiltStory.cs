@@ -373,9 +373,8 @@ public class PrebuiltStory : MonoBehaviour
 
     public void OnStorySelected()
     {
-        HistStateManager.Instance.HandleStorySelection(this);
+        // HistStateManager.Instance.HandleStorySelection(this);
     }
-
 
     public void ResetStory()
     {

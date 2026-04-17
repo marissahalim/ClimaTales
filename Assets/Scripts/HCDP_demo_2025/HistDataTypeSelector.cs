@@ -39,7 +39,7 @@ public class HistDataTypeSelector : MonoBehaviour
             selectedMode = mode;
         }
         UpdateButtonStates();
-        Debug.Log("Selected Mode: " + selectedMode);
+        // Debug.Log("Selected Mode: " + selectedMode);
     }
 
     public void SetStoryDataType(string mode)

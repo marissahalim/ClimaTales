@@ -281,8 +281,9 @@ GameObject:
   - component: {fileID: 725365399291168761}
   - component: {fileID: 8291718748852672110}
   - component: {fileID: 5207201482885908246}
+  - component: {fileID: 4053280824476420204}
   m_Layer: 5
-  m_Name: Button
+  m_Name: StoryButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -423,3 +424,18 @@ MonoBehaviour:
   m_FlexibleWidth: 1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &4053280824476420204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7431119950887104574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501e5063cfaa648aea15f6bf5c6e5ff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyPathLabel: {fileID: 8311228835806842576}
+  audioPathLabel: {fileID: 5194824848678061474}
+  button: {fileID: 8291718748852672110}
