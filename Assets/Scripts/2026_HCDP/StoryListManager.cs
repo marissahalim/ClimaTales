@@ -39,7 +39,7 @@ public class StoryListManager : MonoBehaviour
             StoryButtonUI buttonUI = buttonObj.GetComponent<StoryButtonUI>();
             if (buttonUI != null)
             {
-                buttonUI.Setup(stories[i], i, storyLoader, this, storyManager);
+                buttonUI.Setup(stories[i], i, this);
             }
             else
             {
@@ -50,16 +50,22 @@ public class StoryListManager : MonoBehaviour
         }
     }
 
-    // public void WaitForAudioThenPlay()
-    // {
-    //     StartCoroutine(WaitForAudioCoroutine());
-    // }
+    public void OnStoryButtonClicked(SingleStoryPaths paths)
+    {
+        storyManager.ResetStory();
+        StartCoroutine(storyLoader.LoadStoryData(paths.storyPath, paths.audioPath));
 
-    // private IEnumerator WaitForAudioCoroutine()
-    // {
-    //     yield return new WaitUntil(() => storyLoader.doneLoadingAudios);
-    //     HistStateManager.Instance.EnterStorytellingState();
-    // }
+        // storyLoader.LoadStoryData(paths.storyPath, paths.audioPath);
+
+        // DisableStoryList();
+
+        // storyManager.SetStoryInfo();
+
+        // if (storyLoader.doneLoadingAudios)
+        // {
+        //     HistStateManager.Instance.EnterStorytellingState();
+        // }
+    }
 
     void ClearStoryList()
     {
@@ -74,6 +80,8 @@ public class StoryListManager : MonoBehaviour
 
     public void BackButtonPressed()
     {
+        storyManager.PauseStory();
+        
         storyLoader.UnloadCurrentStory();
 
         storyManager.ResetStory();

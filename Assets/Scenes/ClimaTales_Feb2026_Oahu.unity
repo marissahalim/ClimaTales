@@ -20925,7 +20925,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   storyListLoader: {fileID: 1158488759}
-  storyListManager: {fileID: 939648358}
   storyLoader: {fileID: 1780302371}
   storyManager: {fileID: 134271104}
   storyButtons: []
@@ -21898,10 +21897,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  idleTimeThreshold: 50
+  idleTimeThreshold: 5
   leftInteractiveUI: {fileID: 300890695}
   rightInteractiveUI: {fileID: 1140502176}
-  storyListLoader: {fileID: 1158488759}
   storyListManager: {fileID: 939648358}
   storyLoader: {fileID: 1780302371}
   newStoryManager: {fileID: 134271104}
@@ -21924,6 +21922,7 @@ MonoBehaviour:
   - {fileID: 725077404}
   - {fileID: 1250312161}
   - {fileID: 1695642899}
+  - {fileID: 447901320}
 --- !u!1 &971120101
 GameObject:
   m_ObjectHideFlags: 0

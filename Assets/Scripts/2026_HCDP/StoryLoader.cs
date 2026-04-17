@@ -53,15 +53,15 @@ public class StoryLoader : MonoBehaviour
         }
     }
 
-    public void LoadStoryData(string storyPath, string audioPath)
+    public IEnumerator LoadStoryData(string storyPath, string audioPath)
     {
         string fullStoryPath = Path.Combine(Application.streamingAssetsPath, "JSONs", storyPath);
 
         if (!File.Exists(fullStoryPath))
         {
             Debug.LogError($"[StoryLoader] Story file not found: {fullStoryPath}");
-            // yield break;
-            return;
+            yield break;
+            // return;
         }
 
         string json = File.ReadAllText(fullStoryPath);
@@ -70,16 +70,16 @@ public class StoryLoader : MonoBehaviour
         if (currentStory == null)
         {
             Debug.LogError($"[StoryLoader] Failed to parse story JSON at: {fullStoryPath}");
-            // yield break;
-            return;
+            yield break;
+            // return;
         }
 
         ParseMapPaths();
         Debug.Log($"[StoryLoader] Loaded story: \"{currentStory.name}\"");
 
-        // yield return StartCoroutine(LoadStoryAudio(audioPath));
+        yield return StartCoroutine(LoadStoryAudio(audioPath));
 
-        StartCoroutine(LoadStoryAudio(audioPath));
+        // StartCoroutine(LoadStoryAudio(audioPath));
     }
 
     public IEnumerator LoadStoryAudio(string audioFolderPath)

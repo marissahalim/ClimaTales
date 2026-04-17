@@ -27,6 +27,12 @@ public class HistStateManager : MonoBehaviour
     public HistDataController leftInteractiveUI;
     public HistDataController rightInteractiveUI;
 
+    public StoryListManager storyListManager;
+    public StoryLoader storyLoader;
+    public StoryManager newStoryManager;
+
+
+
     public PrebuiltStoryManager storyManager;
     private PrebuiltStory selectedStory;
 
@@ -54,7 +60,7 @@ public class HistStateManager : MonoBehaviour
 
     void Start()
     {
-        foreach(GameObject storyBtn in storyManager.storyButtons)
+        foreach (GameObject storyBtn in storyListManager.storyButtons)
         {
             uiWhitelist.Add(storyBtn);
         }
@@ -73,20 +79,27 @@ public class HistStateManager : MonoBehaviour
                 idleTimer += Time.deltaTime;
             }
 
-            if (idleTimer >= idleTimeThreshold && (hasSelectedStory || defaultStory != null))
+            if (storyLoader.doneLoadingAudios && !newStoryManager.IsPlaying)
             {
-                if (!hasSelectedStory && defaultStory != null)
-                {
-                    selectedStory = defaultStory;
-                    hasSelectedStory = true;
-                }
-
+                storyListManager.DisableStoryList();
+                newStoryManager.SetStoryInfo();
                 EnterStorytellingState();
             }
+
+            // if (idleTimer >= idleTimeThreshold && (hasSelectedStory || defaultStory != null))
+            // {
+            //     if (!hasSelectedStory && defaultStory != null)
+            //     {
+            //         selectedStory = defaultStory;
+            //         hasSelectedStory = true;
+            //     }
+
+            //     EnterStorytellingState();
+            // }
         }
         else if (currentState == HistState.Storytelling)
         {
-            if (IsUserInteractingWithListedUI() || selectedStory.storyDonePlaying)
+            if (IsUserInteractingWithListedUI())
             {
                 OnAnyInteraction(); // Return to Interactive mode
             }
@@ -164,7 +177,7 @@ public class HistStateManager : MonoBehaviour
         }
     }
 
-    private void EnterStorytellingState()
+    public void EnterStorytellingState()
     {
 
         if (currentState != HistState.Storytelling)
@@ -173,10 +186,15 @@ public class HistStateManager : MonoBehaviour
             Debug.Log("State changed to Storytelling (idle or button)");
         }
 
-        if (selectedStory != null)
+        // if (selectedStory != null)
+        // {
+        //     Debug.Log("Starting story playback: " + selectedStory.name);
+        //     selectedStory.PlayStory();
+        // }
+        if (newStoryManager != null)
         {
-            Debug.Log("Starting story playback: " + selectedStory.name);
-            selectedStory.PlayStory();
+            Debug.Log("Starting story playback: " + newStoryManager.name);
+            newStoryManager.PlayStory();
         }
         else
         {

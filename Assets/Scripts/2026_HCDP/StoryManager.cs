@@ -59,7 +59,6 @@ public class StoryManager : MonoBehaviour
     // This function is to set the title and description of the story 
     public void SetStoryInfo()
     {
-
         if (storyLoader.currentStory != null)
         {
             storyTitle.text = storyLoader.currentStory.name;
