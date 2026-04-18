@@ -75,6 +75,12 @@ public class StoryManager : MonoBehaviour
 
         while (IsPlaying)
         {
+            if (storyLoader.currentStory == null || storyLoader.pageAudios == null)
+            {
+                Debug.LogWarning("[StoryManager] Story data was cleared mid-playback, stopping coroutine.");
+                yield break;
+            }
+
             if (leftStoryIndex >= storyLoader.leftMapYears.Length)
             {
                 ResetStory();
@@ -135,6 +141,12 @@ public class StoryManager : MonoBehaviour
 
         while (IsPlaying)
         {
+            if (storyLoader.currentStory == null || storyLoader.pageAudios == null)
+            {
+                Debug.LogWarning("[StoryManager] Story data was cleared mid-playback, stopping coroutine.");
+                yield break;
+            }
+
             if (rightStoryIndex >= storyLoader.rightMapYears.Length)
             {
                 rightStoryIndex = 0;
@@ -208,6 +220,8 @@ public class StoryManager : MonoBehaviour
 
     public void PauseStory()
     {
+        Debug.Log($"[StoryManager] PauseStory called. IsPlaying: {IsPlaying}");
+
         if (!IsPlaying) return;
 
         IsPlaying = false;
@@ -296,6 +310,8 @@ public class StoryManager : MonoBehaviour
     // RESET TOOL
     public void ResetStory()
     {
+        Debug.Log($"[StoryManager] ResetStory called. IsPlaying: {IsPlaying}");
+
         // Stop any ongoing story playback
         PauseStory();
 
@@ -339,5 +355,7 @@ public class StoryManager : MonoBehaviour
         // Reset progress bar
         storyProgressBar.SetValue(0);
         storyProgressBar.isOn = false;
+
+        // Hide story list manager again
     }
 }

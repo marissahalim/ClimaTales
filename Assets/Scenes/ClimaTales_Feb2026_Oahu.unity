@@ -21897,7 +21897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  idleTimeThreshold: 5
+  idleTimeThreshold: 10
   leftInteractiveUI: {fileID: 300890695}
   rightInteractiveUI: {fileID: 1140502176}
   storyListManager: {fileID: 939648358}

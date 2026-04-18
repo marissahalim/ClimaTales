@@ -3,6 +3,7 @@ using System.Collections.Generic;
 // using UnityEditor.EditorTools;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public enum HistState
 {
@@ -22,6 +23,7 @@ public class HistStateManager : MonoBehaviour
     private float idleTimer = 0f;
 
     private bool hasSelectedStory = false;
+    private bool storyReadyToPlay = false;
 
     [Header("UI Controllers")]
     public HistDataController leftInteractiveUI;
@@ -32,9 +34,9 @@ public class HistStateManager : MonoBehaviour
     public StoryManager newStoryManager;
 
 
-
     public PrebuiltStoryManager storyManager;
     private PrebuiltStory selectedStory;
+
 
     [Header("Default story to auto-play after idle")]
     public PrebuiltStory defaultStory;
@@ -79,8 +81,9 @@ public class HistStateManager : MonoBehaviour
                 idleTimer += Time.deltaTime;
             }
 
-            if (storyLoader.doneLoadingAudios && !newStoryManager.IsPlaying)
+            if (storyReadyToPlay && storyLoader.doneLoadingAudios && !newStoryManager.IsPlaying)
             {
+                storyReadyToPlay = false;
                 storyListManager.DisableStoryList();
                 newStoryManager.SetStoryInfo();
                 EnterStorytellingState();
@@ -124,22 +127,28 @@ public class HistStateManager : MonoBehaviour
         currentState = HistState.Interactive;
         idleTimer = 0f;
 
-        if (selectedStory != null)
+        if (newStoryManager != null)
         {
             // selectedStory.PauseStory();
-            selectedStory.ResetStory();
-            defaultStory.ResetStory();
+            newStoryManager.ResetStory();
+            storyListManager.BackButtonPressed();
+            // defaultStory.ResetStory();
         }
 
         // Reset UI when entering Interactive
         leftInteractiveUI?.ResetUI();
         rightInteractiveUI?.ResetUI();
 
-        selectedStory.leftStoryLabel.text = "";
-        selectedStory.rightStoryLabel.text = "";
+        // selectedStory.leftStoryLabel.text = "";
+        // selectedStory.rightStoryLabel.text = "";
 
-        selectedStory.leftMapLoader?.SetStoryMode(false);
-        selectedStory.rightMapLoader?.SetStoryMode(false);
+        // selectedStory.leftMapLoader?.SetStoryMode(false);
+        // selectedStory.rightMapLoader?.SetStoryMode(false);
+    }
+
+    public void NotifyStorySelected()
+    {
+        storyReadyToPlay = true;
     }
 
     public void HandleStorySelection(PrebuiltStory story)
@@ -201,6 +210,15 @@ public class HistStateManager : MonoBehaviour
             Debug.LogWarning("No selected story found during idle transition.");
         }
     }
+
+    // private void AddListenersToInteractiveBtns()
+    // {
+    //     foreach (GameObject uiElement in interactiveElements)
+    //     {
+
+    //         btn.GetComponent<Button>().onClick.AddListener(() => OnAnyInteraction());
+    //     }
+    // }
 
 
     private bool IsUserInteractingWithListedUI()

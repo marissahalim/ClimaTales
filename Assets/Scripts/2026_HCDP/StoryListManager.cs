@@ -18,6 +18,8 @@ public class StoryListManager : MonoBehaviour
 
     public GameObject backButton;
 
+    private bool storyReadyToPlay = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,6 +55,11 @@ public class StoryListManager : MonoBehaviour
     public void OnStoryButtonClicked(SingleStoryPaths paths)
     {
         storyManager.ResetStory();
+
+        storyLoader.doneLoadingAudios = false;
+
+        HistStateManager.Instance.NotifyStorySelected();
+
         StartCoroutine(storyLoader.LoadStoryData(paths.storyPath, paths.audioPath));
 
         // storyLoader.LoadStoryData(paths.storyPath, paths.audioPath);
@@ -80,11 +87,11 @@ public class StoryListManager : MonoBehaviour
 
     public void BackButtonPressed()
     {
-        storyManager.PauseStory();
-        
+        // storyManager.PauseStory();
+
         storyLoader.UnloadCurrentStory();
 
-        storyManager.ResetStory();
+        // storyManager.ResetStory();
 
         storyListUI.SetActive(true);
         backButton.SetActive(false);
