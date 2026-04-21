@@ -87,11 +87,7 @@ public class StoryListManager : MonoBehaviour
 
     public void BackButtonPressed()
     {
-        // storyManager.PauseStory();
-
         storyLoader.UnloadCurrentStory();
-
-        // storyManager.ResetStory();
 
         storyListUI.SetActive(true);
         backButton.SetActive(false);

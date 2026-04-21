@@ -142,7 +142,7 @@ public class HistDataController : MonoBehaviour
 
         mapLoader?.ResetLabelsAndMap();
 
-        Debug.Log("I am reset");
+        // Debug.Log("I am reset");
     }
 
 }

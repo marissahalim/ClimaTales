@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-// using UnityEditor.EditorTools;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -57,7 +56,6 @@ public class HistStateManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
 
     void Start()
@@ -151,6 +149,7 @@ public class HistStateManager : MonoBehaviour
         storyReadyToPlay = true;
     }
 
+    // NOT IN USE ANYMORE
     public void HandleStorySelection(PrebuiltStory story)
     {
         Debug.Log(story.storyDonePlaying);
@@ -210,16 +209,6 @@ public class HistStateManager : MonoBehaviour
             Debug.LogWarning("No selected story found during idle transition.");
         }
     }
-
-    // private void AddListenersToInteractiveBtns()
-    // {
-    //     foreach (GameObject uiElement in interactiveElements)
-    //     {
-
-    //         btn.GetComponent<Button>().onClick.AddListener(() => OnAnyInteraction());
-    //     }
-    // }
-
 
     private bool IsUserInteractingWithListedUI()
     {
