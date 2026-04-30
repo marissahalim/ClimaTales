@@ -92,8 +92,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32
-  m_fontSizeBase: 32
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -226,8 +226,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -436,6 +436,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 501e5063cfaa648aea15f6bf5c6e5ff3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storyPathLabel: {fileID: 8311228835806842576}
-  audioPathLabel: {fileID: 5194824848678061474}
+  storyName: {fileID: 8311228835806842576}
+  storyDesc: {fileID: 5194824848678061474}
   button: {fileID: 8291718748852672110}
+  storyListLoader: {fileID: 0}
+  storyListManager: {fileID: 0}

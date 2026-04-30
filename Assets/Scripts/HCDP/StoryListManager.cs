@@ -41,7 +41,8 @@ public class StoryListManager : MonoBehaviour
             StoryButtonUI buttonUI = buttonObj.GetComponent<StoryButtonUI>();
             if (buttonUI != null)
             {
-                buttonUI.Setup(stories[i], i, this);
+                ScienceStory metadata = storyLoader.LoadStoryMetadata(stories[i].storyPath); // add this
+                buttonUI.Setup(stories[i], i, this, metadata);                                // add metadata arg
             }
             else
             {

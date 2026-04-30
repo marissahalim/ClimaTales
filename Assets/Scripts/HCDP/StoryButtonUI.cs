@@ -9,8 +9,8 @@ using UnityEngine.UI;
 public class StoryButtonUI : MonoBehaviour
 {
 
-    [SerializeField] private TMP_Text storyPathLabel;
-    [SerializeField] private TMP_Text audioPathLabel;
+    [SerializeField] private TMP_Text storyName;
+    [SerializeField] private TMP_Text storyDesc;
 
     [SerializeField] private Button button;
 
@@ -22,18 +22,17 @@ public class StoryButtonUI : MonoBehaviour
     private SingleStoryPaths storyPaths;
     private int storyIndex;
 
-    public void Setup(SingleStoryPaths paths, int index, StoryListManager listManager)
-    // public void Setup(SingleStoryPaths paths, int index)
+    public void Setup(SingleStoryPaths paths, int index, StoryListManager listManager, ScienceStory story)
     {
         storyPaths = paths;
         storyIndex = index;
         storyListManager = listManager;
 
-        if (storyPathLabel != null)
-            storyPathLabel.text = paths.storyPath;
+        if (storyName != null)
+            storyName.text = story != null ? story.name : paths.storyPath;
 
-        if (audioPathLabel != null)
-            audioPathLabel.text = paths.audioPath;
+        if (storyDesc != null)
+            storyDesc.text = story != null ? story.description : paths.audioPath;
 
         if (button != null)
             button.onClick.AddListener(OnButtonClicked);
@@ -47,22 +46,6 @@ public class StoryButtonUI : MonoBehaviour
                   $"'{storyPaths.storyPath}' / '{storyPaths.audioPath}'");
 
         storyListManager.OnStoryButtonClicked(storyPaths);
-
-        // Extend here: broadcast the selection to your story loading system
-        // HistStateManager.Instance.HandleStorySelection();
-
-        // storyManager.ResetStory();
-
-        // storyLoader.LoadStoryData(storyPaths.storyPath, storyPaths.audioPath);
-
-        // storyListManager.DisableStoryList();
-
-        // storyManager.SetStoryInfo();
-
-        // if (storyLoader.doneLoadingAudios)
-        // {
-        //     HistStateManager.Instance.EnterStorytellingState();
-        // }
     }
 
     void OnDestroy()

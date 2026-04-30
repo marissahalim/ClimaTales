@@ -12,9 +12,7 @@ public enum HistState
 
 public class HistStateManager : MonoBehaviour
 {
-
     public static HistStateManager Instance;
-
     public HistState currentState = HistState.Interactive;
 
     [Tooltip("How long (in seconds) to wait to switch from Interactive mode to Storytelling mode after no interaction")]
@@ -31,7 +29,6 @@ public class HistStateManager : MonoBehaviour
     public StoryListManager storyListManager;
     public StoryLoader storyLoader;
     public StoryManager newStoryManager;
-
 
     public PrebuiltStoryManager storyManager;
     private PrebuiltStory selectedStory;
@@ -60,9 +57,18 @@ public class HistStateManager : MonoBehaviour
 
     void Start()
     {
+        // foreach (GameObject storyBtn in storyListManager.storyButtons)
+        // {
+        //     uiWhitelist.Add(storyBtn);
+        // }
+    }
+
+    public void RefreshButtonWhitelist()
+    {
         foreach (GameObject storyBtn in storyListManager.storyButtons)
         {
-            uiWhitelist.Add(storyBtn);
+            if (!uiWhitelist.Contains(storyBtn))
+                uiWhitelist.Add(storyBtn);
         }
     }
 
@@ -87,16 +93,20 @@ public class HistStateManager : MonoBehaviour
                 EnterStorytellingState();
             }
 
-            // if (idleTimer >= idleTimeThreshold && (hasSelectedStory || defaultStory != null))
-            // {
-            //     if (!hasSelectedStory && defaultStory != null)
-            //     {
-            //         selectedStory = defaultStory;
-            //         hasSelectedStory = true;
-            //     }
+            if (idleTimer >= idleTimeThreshold && !storyReadyToPlay && !newStoryManager.IsPlaying)
+            {
+                idleTimer = 0f; // prevent repeated triggers while loading
+                SingleStoryPaths defaultPaths = storyLoader.storyListLoader.DefaultStoryPaths;
+                storyListManager.OnStoryButtonClicked(defaultPaths);
 
-            //     EnterStorytellingState();
-            // }
+                // if (!hasSelectedStory && defaultStory != null)
+                // {
+                //     selectedStory = defaultStory;
+                //     hasSelectedStory = true;
+                // }
+
+                // EnterStorytellingState();
+            }
         }
         else if (currentState == HistState.Storytelling)
         {
@@ -127,21 +137,13 @@ public class HistStateManager : MonoBehaviour
 
         if (newStoryManager != null)
         {
-            // selectedStory.PauseStory();
             newStoryManager.ResetStory();
             storyListManager.BackButtonPressed();
-            // defaultStory.ResetStory();
         }
 
         // Reset UI when entering Interactive
         leftInteractiveUI?.ResetUI();
         rightInteractiveUI?.ResetUI();
-
-        // selectedStory.leftStoryLabel.text = "";
-        // selectedStory.rightStoryLabel.text = "";
-
-        // selectedStory.leftMapLoader?.SetStoryMode(false);
-        // selectedStory.rightMapLoader?.SetStoryMode(false);
     }
 
     public void NotifyStorySelected()
